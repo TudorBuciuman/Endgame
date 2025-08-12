@@ -1,0 +1,2725 @@
+fileFormatVersion: 2
+guid: ac542d55c8d8f5f48a0585d53c6bd3e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spr_truelab_tiles_0_0
+  - first:
+      213: 21300002
+    second: spr_truelab_tiles_0_1
+  - first:
+      213: 21300004
+    second: spr_truelab_tiles_0_2
+  - first:
+      213: 21300006
+    second: spr_truelab_tiles_0_3
+  - first:
+      213: 21300008
+    second: spr_truelab_tiles_0_4
+  - first:
+      213: 21300010
+    second: spr_truelab_tiles_0_5
+  - first:
+      213: 21300012
+    second: spr_truelab_tiles_0_6
+  - first:
+      213: 21300014
+    second: spr_truelab_tiles_0_7
+  - first:
+      213: 21300016
+    second: spr_truelab_tiles_0_8
+  - first:
+      213: 21300018
+    second: spr_truelab_tiles_0_9
+  - first:
+      213: 21300020
+    second: spr_truelab_tiles_0_10
+  - first:
+      213: 21300022
+    second: spr_truelab_tiles_0_11
+  - first:
+      213: 21300024
+    second: spr_truelab_tiles_0_12
+  - first:
+      213: 21300026
+    second: spr_truelab_tiles_0_13
+  - first:
+      213: 21300028
+    second: spr_truelab_tiles_0_14
+  - first:
+      213: 21300030
+    second: spr_truelab_tiles_0_15
+  - first:
+      213: 21300032
+    second: spr_truelab_tiles_0_16
+  - first:
+      213: 21300034
+    second: spr_truelab_tiles_0_17
+  - first:
+      213: 21300036
+    second: spr_truelab_tiles_0_18
+  - first:
+      213: 21300038
+    second: spr_truelab_tiles_0_19
+  - first:
+      213: 21300040
+    second: spr_truelab_tiles_0_20
+  - first:
+      213: 21300042
+    second: spr_truelab_tiles_0_21
+  - first:
+      213: 21300044
+    second: spr_truelab_tiles_0_22
+  - first:
+      213: 21300046
+    second: spr_truelab_tiles_0_23
+  - first:
+      213: 21300048
+    second: spr_truelab_tiles_0_24
+  - first:
+      213: 21300050
+    second: spr_truelab_tiles_0_25
+  - first:
+      213: 21300052
+    second: spr_truelab_tiles_0_26
+  - first:
+      213: 21300054
+    second: spr_truelab_tiles_0_27
+  - first:
+      213: 21300056
+    second: spr_truelab_tiles_0_28
+  - first:
+      213: 21300058
+    second: spr_truelab_tiles_0_29
+  - first:
+      213: 21300060
+    second: spr_truelab_tiles_0_30
+  - first:
+      213: 21300062
+    second: spr_truelab_tiles_0_31
+  - first:
+      213: 21300064
+    second: spr_truelab_tiles_0_32
+  - first:
+      213: 21300066
+    second: spr_truelab_tiles_0_33
+  - first:
+      213: 21300068
+    second: spr_truelab_tiles_0_34
+  - first:
+      213: 21300070
+    second: spr_truelab_tiles_0_35
+  - first:
+      213: 21300072
+    second: spr_truelab_tiles_0_36
+  - first:
+      213: 21300074
+    second: spr_truelab_tiles_0_37
+  - first:
+      213: 21300076
+    second: spr_truelab_tiles_0_38
+  - first:
+      213: 21300078
+    second: spr_truelab_tiles_0_39
+  - first:
+      213: 21300080
+    second: spr_truelab_tiles_0_40
+  - first:
+      213: 21300082
+    second: spr_truelab_tiles_0_41
+  - first:
+      213: 21300084
+    second: spr_truelab_tiles_0_42
+  - first:
+      213: 21300086
+    second: spr_truelab_tiles_0_43
+  - first:
+      213: 21300088
+    second: spr_truelab_tiles_0_44
+  - first:
+      213: 21300090
+    second: spr_truelab_tiles_0_45
+  - first:
+      213: 21300092
+    second: spr_truelab_tiles_0_46
+  - first:
+      213: 21300094
+    second: spr_truelab_tiles_0_47
+  - first:
+      213: 21300096
+    second: spr_truelab_tiles_0_48
+  - first:
+      213: 21300098
+    second: spr_truelab_tiles_0_49
+  - first:
+      213: 21300100
+    second: spr_truelab_tiles_0_50
+  - first:
+      213: 21300102
+    second: spr_truelab_tiles_0_51
+  - first:
+      213: 21300104
+    second: spr_truelab_tiles_0_52
+  - first:
+      213: 21300106
+    second: spr_truelab_tiles_0_53
+  - first:
+      213: 21300108
+    second: spr_truelab_tiles_0_54
+  - first:
+      213: 21300110
+    second: spr_truelab_tiles_0_55
+  - first:
+      213: 21300112
+    second: spr_truelab_tiles_0_56
+  - first:
+      213: 21300114
+    second: spr_truelab_tiles_0_57
+  - first:
+      213: 21300116
+    second: spr_truelab_tiles_0_58
+  - first:
+      213: 21300118
+    second: spr_truelab_tiles_0_59
+  - first:
+      213: 21300120
+    second: spr_truelab_tiles_0_60
+  - first:
+      213: 21300122
+    second: spr_truelab_tiles_0_61
+  - first:
+      213: 21300124
+    second: spr_truelab_tiles_0_62
+  - first:
+      213: 21300126
+    second: spr_truelab_tiles_0_63
+  - first:
+      213: 21300128
+    second: spr_truelab_tiles_0_64
+  - first:
+      213: 21300130
+    second: spr_truelab_tiles_0_65
+  - first:
+      213: 21300132
+    second: spr_truelab_tiles_0_66
+  - first:
+      213: 21300134
+    second: spr_truelab_tiles_0_67
+  - first:
+      213: 21300136
+    second: spr_truelab_tiles_0_68
+  - first:
+      213: 21300138
+    second: spr_truelab_tiles_0_69
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73136721579546fabed0ffebf4f904fe
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134d80261c9d4cf68effb464a0ad44ae
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8261b05686ca44febca52f60ccf55ea1
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -6, y: 7}
+        - {x: -6, y: -10}
+        - {x: 9, y: -10}
+        - {x: 9, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a647646a8e7f43778cf239b7ab686b10
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176659e0877947a6ba6f52040c966caa
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7eb598157e34a14aa86e1a28f99702a
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb48212986645ada0ce4ae300ed8291
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603ae1b920cc4a739d078a6ba8941fcd
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4b70d5af984da3a377ae549472c799
+      internalID: 21300016
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e123807530349d29865d0bc7272bc81
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05c7719cea847b6819eecb087419541
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3425d4614414c9b8156cee01eb22dca
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526683145c5f40b2b997eaa7f4df0ec5
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 160
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1c48ab4b054b1d8b92ae712971d739
+      internalID: 21300026
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4ad5de53a84c399f3330af3f1b81c6
+      internalID: 21300028
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07c35abd1bb43c5a4032ef4e37199b3
+      internalID: 21300030
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bf8f47288e49cdb1ece79aae812a81
+      internalID: 21300032
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253fb4592e114d44b815780b3602214e
+      internalID: 21300034
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a604fd07be4fd195c3cb75af6b08c5
+      internalID: 21300036
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b46d1e10e49deba114c2e944285a2
+      internalID: 21300038
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1a7c0e7a4741e1aa8cde7f5f56b7d8
+      internalID: 21300040
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a2897f3be441e488a9c4688657aefc
+      internalID: 21300042
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b871b397f7b453cab3670c47b329888
+      internalID: 21300044
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c8be66160f4763af4075fe18a362b9
+      internalID: 21300046
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d1755d0314f0a9ccdab33459f8d32
+      internalID: 21300048
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d95356c1c2c4ddc82ecd9f925fbcbf7
+      internalID: 21300050
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7974689e0647ddbac7ec3572425ba6
+      internalID: 21300052
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5535f0029b464ab10a3c3337205484
+      internalID: 21300054
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d754fccc5942468cc8ab82f4d98de0
+      internalID: 21300056
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ec8fe622ff4b20975cfff67c925c1b
+      internalID: 21300058
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccf0970e6ec45d588fe9eec942f5705
+      internalID: 21300060
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 4, y: -10}
+        - {x: 4, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f30f86ad604ae18740c23126da0114
+      internalID: 21300062
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 4, y: -10}
+        - {x: 4, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad98d1f18827472195345f78e78cbecd
+      internalID: 21300064
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 4, y: -10}
+        - {x: 4, y: 10}
+        - {x: -4, y: 10}
+        - {x: -4, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65bc6bd3d6041dc9721a69dc3830925
+      internalID: 21300066
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 100
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142633d868c441ffb719f2de507d986d
+      internalID: 21300068
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f70887a4bc842a999b547a3b58ced57
+      internalID: 21300070
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64ece29a93d4abaac45be9163d93886
+      internalID: 21300072
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8129eca6b93f4b72baf0a99f060c89bb
+      internalID: 21300074
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -5, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -4}
+        - {x: -6, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c5962b456145a088b3af4897fae4b5
+      internalID: 21300076
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -4, y: 10}
+        - {x: -4, y: 1}
+        - {x: 1, y: -4}
+        - {x: 10, y: -4}
+        - {x: 10, y: 4}
+        - {x: 4, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35ec929b5ce4574bf1015b548a6e9b0
+      internalID: 21300078
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -4, y: 10}
+        - {x: -10, y: 4}
+        - {x: -10, y: -4}
+        - {x: -1, y: -4}
+        - {x: 4, y: 1}
+        - {x: 4, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3ea9eec41742dbbf48b0c668728e26
+      internalID: 21300080
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e815104a075d48ad8b621de55afd4d27
+      internalID: 21300082
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa42142e800e482e820d3977d27ae180
+      internalID: 21300084
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da7e4e08cf84c6089ffcbcf7514c662
+      internalID: 21300086
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_44
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa33e84ac9c14e5d961038f2734b25df
+      internalID: 21300088
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -5}
+        - {x: -4, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1ca952a34e4a3083add67a551e2044
+      internalID: 21300090
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: -5}
+        - {x: 10, y: -5}
+        - {x: 10, y: 3}
+        - {x: -10, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7ea27e06244a5f9b0573219840dedb
+      internalID: 21300092
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f951f7bd3c4073a5b596b6d5cdb220
+      internalID: 21300094
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e6171f9d704d8c85debc1155e65969
+      internalID: 21300096
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f9141b5c974831b060731a9fda0550
+      internalID: 21300098
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746b40096b444fdab7e49b9abed6ad80
+      internalID: 21300100
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c615fbbcd466e92168176c5848f7a
+      internalID: 21300102
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aef08739ee45a195bb3186650ab9a1
+      internalID: 21300104
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf0cc484d154057a06376ea0952072a
+      internalID: 21300106
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54311870c4dc4730b08336f41b4b7ed0
+      internalID: 21300108
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_55
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60def24c10fc4e41a3eec4c687476a8a
+      internalID: 21300110
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6581dcbf4d4e5ca7b30d3f7d74dfcd
+      internalID: 21300112
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_57
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db90b3c4dcdc4bb69951b70da33cd7b6
+      internalID: 21300114
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe6fec1e344aeaaa4bf10bfc7b2c57
+      internalID: 21300116
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_59
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f718cf8b76c84537af56950ae6bba897
+      internalID: 21300118
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b49ee15d9442a69ed79ee94c9606ce
+      internalID: 21300120
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_61
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be59fd641b94126a92a113c530911f0
+      internalID: 21300122
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd842c23a164f169f26a1a833fdc11b
+      internalID: 21300124
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32370663411e460984215aed15b90cd3
+      internalID: 21300126
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -5}
+        - {x: 3, y: -5}
+        - {x: 10, y: -2}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a12a284d9b44d5bfee46ee580d5bef
+      internalID: 21300128
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_65
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: 2}
+        - {x: 10, y: 2}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed4e0f824cb41209f90fd55ff4831fc
+      internalID: 21300130
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_66
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: 2}
+        - {x: 5, y: -5}
+        - {x: 8, y: -5}
+        - {x: 10, y: -3}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef1bcac7b10448f82c84b78814e5d25
+      internalID: 21300132
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170cc28b00b74735bda886cf4e90032d
+      internalID: 21300134
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_68
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036ac1d17b3f4dc49339c551ac1c11de
+      internalID: 21300136
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_truelab_tiles_0_69
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91639267d1914c1f98cd99a3e547a055
+      internalID: 21300138
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_truelab_tiles_0_0: 21300000
+      spr_truelab_tiles_0_1: 21300002
+      spr_truelab_tiles_0_10: 21300020
+      spr_truelab_tiles_0_11: 21300022
+      spr_truelab_tiles_0_12: 21300024
+      spr_truelab_tiles_0_13: 21300026
+      spr_truelab_tiles_0_14: 21300028
+      spr_truelab_tiles_0_15: 21300030
+      spr_truelab_tiles_0_16: 21300032
+      spr_truelab_tiles_0_17: 21300034
+      spr_truelab_tiles_0_18: 21300036
+      spr_truelab_tiles_0_19: 21300038
+      spr_truelab_tiles_0_2: 21300004
+      spr_truelab_tiles_0_20: 21300040
+      spr_truelab_tiles_0_21: 21300042
+      spr_truelab_tiles_0_22: 21300044
+      spr_truelab_tiles_0_23: 21300046
+      spr_truelab_tiles_0_24: 21300048
+      spr_truelab_tiles_0_25: 21300050
+      spr_truelab_tiles_0_26: 21300052
+      spr_truelab_tiles_0_27: 21300054
+      spr_truelab_tiles_0_28: 21300056
+      spr_truelab_tiles_0_29: 21300058
+      spr_truelab_tiles_0_3: 21300006
+      spr_truelab_tiles_0_30: 21300060
+      spr_truelab_tiles_0_31: 21300062
+      spr_truelab_tiles_0_32: 21300064
+      spr_truelab_tiles_0_33: 21300066
+      spr_truelab_tiles_0_34: 21300068
+      spr_truelab_tiles_0_35: 21300070
+      spr_truelab_tiles_0_36: 21300072
+      spr_truelab_tiles_0_37: 21300074
+      spr_truelab_tiles_0_38: 21300076
+      spr_truelab_tiles_0_39: 21300078
+      spr_truelab_tiles_0_4: 21300008
+      spr_truelab_tiles_0_40: 21300080
+      spr_truelab_tiles_0_41: 21300082
+      spr_truelab_tiles_0_42: 21300084
+      spr_truelab_tiles_0_43: 21300086
+      spr_truelab_tiles_0_44: 21300088
+      spr_truelab_tiles_0_45: 21300090
+      spr_truelab_tiles_0_46: 21300092
+      spr_truelab_tiles_0_47: 21300094
+      spr_truelab_tiles_0_48: 21300096
+      spr_truelab_tiles_0_49: 21300098
+      spr_truelab_tiles_0_5: 21300010
+      spr_truelab_tiles_0_50: 21300100
+      spr_truelab_tiles_0_51: 21300102
+      spr_truelab_tiles_0_52: 21300104
+      spr_truelab_tiles_0_53: 21300106
+      spr_truelab_tiles_0_54: 21300108
+      spr_truelab_tiles_0_55: 21300110
+      spr_truelab_tiles_0_56: 21300112
+      spr_truelab_tiles_0_57: 21300114
+      spr_truelab_tiles_0_58: 21300116
+      spr_truelab_tiles_0_59: 21300118
+      spr_truelab_tiles_0_6: 21300012
+      spr_truelab_tiles_0_60: 21300120
+      spr_truelab_tiles_0_61: 21300122
+      spr_truelab_tiles_0_62: 21300124
+      spr_truelab_tiles_0_63: 21300126
+      spr_truelab_tiles_0_64: 21300128
+      spr_truelab_tiles_0_65: 21300130
+      spr_truelab_tiles_0_66: 21300132
+      spr_truelab_tiles_0_67: 21300134
+      spr_truelab_tiles_0_68: 21300136
+      spr_truelab_tiles_0_69: 21300138
+      spr_truelab_tiles_0_7: 21300014
+      spr_truelab_tiles_0_8: 21300016
+      spr_truelab_tiles_0_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

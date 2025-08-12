@@ -1,0 +1,2787 @@
+fileFormatVersion: 2
+guid: f471d9f8f5a283041897f1c841d1eebd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spr_pr_tiles_0_0
+  - first:
+      213: 21300002
+    second: spr_pr_tiles_0_1
+  - first:
+      213: 21300004
+    second: spr_pr_tiles_0_2
+  - first:
+      213: 21300006
+    second: spr_pr_tiles_0_3
+  - first:
+      213: 21300008
+    second: spr_pr_tiles_0_4
+  - first:
+      213: 21300010
+    second: spr_pr_tiles_0_5
+  - first:
+      213: 21300012
+    second: spr_pr_tiles_0_6
+  - first:
+      213: 21300014
+    second: spr_pr_tiles_0_7
+  - first:
+      213: 21300016
+    second: spr_pr_tiles_0_8
+  - first:
+      213: 21300018
+    second: spr_pr_tiles_0_9
+  - first:
+      213: 21300020
+    second: spr_pr_tiles_0_10
+  - first:
+      213: 21300022
+    second: spr_pr_tiles_0_11
+  - first:
+      213: 21300024
+    second: spr_pr_tiles_0_12
+  - first:
+      213: 21300026
+    second: spr_pr_tiles_0_13
+  - first:
+      213: 21300028
+    second: spr_pr_tiles_0_14
+  - first:
+      213: 21300030
+    second: spr_pr_tiles_0_15
+  - first:
+      213: 21300032
+    second: spr_pr_tiles_0_16
+  - first:
+      213: 21300034
+    second: spr_pr_tiles_0_17
+  - first:
+      213: 21300036
+    second: spr_pr_tiles_0_18
+  - first:
+      213: 21300038
+    second: spr_pr_tiles_0_19
+  - first:
+      213: 21300040
+    second: spr_pr_tiles_0_20
+  - first:
+      213: 21300042
+    second: spr_pr_tiles_0_21
+  - first:
+      213: 21300044
+    second: spr_pr_tiles_0_22
+  - first:
+      213: 21300046
+    second: spr_pr_tiles_0_23
+  - first:
+      213: 21300048
+    second: spr_pr_tiles_0_24
+  - first:
+      213: 21300050
+    second: spr_pr_tiles_0_25
+  - first:
+      213: 21300052
+    second: spr_pr_tiles_0_26
+  - first:
+      213: 21300054
+    second: spr_pr_tiles_0_27
+  - first:
+      213: 21300056
+    second: spr_pr_tiles_0_28
+  - first:
+      213: 21300058
+    second: spr_pr_tiles_0_29
+  - first:
+      213: 21300060
+    second: spr_pr_tiles_0_30
+  - first:
+      213: 21300062
+    second: spr_pr_tiles_0_31
+  - first:
+      213: 21300064
+    second: spr_pr_tiles_0_32
+  - first:
+      213: 21300066
+    second: spr_pr_tiles_0_33
+  - first:
+      213: 21300068
+    second: spr_pr_tiles_0_34
+  - first:
+      213: 21300070
+    second: spr_pr_tiles_0_35
+  - first:
+      213: 21300072
+    second: spr_pr_tiles_0_36
+  - first:
+      213: 21300074
+    second: spr_pr_tiles_0_37
+  - first:
+      213: 21300076
+    second: spr_pr_tiles_0_38
+  - first:
+      213: 21300078
+    second: spr_pr_tiles_0_39
+  - first:
+      213: 21300080
+    second: spr_pr_tiles_0_40
+  - first:
+      213: 21300082
+    second: spr_pr_tiles_0_41
+  - first:
+      213: 21300084
+    second: spr_pr_tiles_0_42
+  - first:
+      213: 21300086
+    second: spr_pr_tiles_0_43
+  - first:
+      213: 21300088
+    second: spr_pr_tiles_0_44
+  - first:
+      213: 21300090
+    second: spr_pr_tiles_0_45
+  - first:
+      213: 21300092
+    second: spr_pr_tiles_0_46
+  - first:
+      213: 21300094
+    second: spr_pr_tiles_0_47
+  - first:
+      213: 21300096
+    second: spr_pr_tiles_0_48
+  - first:
+      213: 21300098
+    second: spr_pr_tiles_0_49
+  - first:
+      213: 21300100
+    second: spr_pr_tiles_0_50
+  - first:
+      213: 21300102
+    second: spr_pr_tiles_0_51
+  - first:
+      213: 21300104
+    second: spr_pr_tiles_0_52
+  - first:
+      213: 21300106
+    second: spr_pr_tiles_0_53
+  - first:
+      213: 21300108
+    second: spr_pr_tiles_0_54
+  - first:
+      213: 21300110
+    second: spr_pr_tiles_0_55
+  - first:
+      213: 21300112
+    second: spr_pr_tiles_0_56
+  - first:
+      213: 21300114
+    second: spr_pr_tiles_0_57
+  - first:
+      213: 21300116
+    second: spr_pr_tiles_0_58
+  - first:
+      213: 21300118
+    second: spr_pr_tiles_0_59
+  - first:
+      213: 21300120
+    second: spr_pr_tiles_0_60
+  - first:
+      213: 21300122
+    second: spr_pr_tiles_0_61
+  - first:
+      213: 21300124
+    second: spr_pr_tiles_0_62
+  - first:
+      213: 21300126
+    second: spr_pr_tiles_0_63
+  - first:
+      213: 21300128
+    second: spr_pr_tiles_0_64
+  - first:
+      213: 21300130
+    second: spr_pr_tiles_0_65
+  - first:
+      213: 21300132
+    second: spr_pr_tiles_0_66
+  - first:
+      213: 21300134
+    second: spr_pr_tiles_0_67
+  - first:
+      213: 21300136
+    second: spr_pr_tiles_0_68
+  - first:
+      213: 21300138
+    second: spr_pr_tiles_0_69
+  - first:
+      213: 21300140
+    second: spr_pr_tiles_0_70
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2efa669440c41ccbb3e3f841c1781ab
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8842b62244804542b00225783e50da74
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89ed629ac4d4575ba9ac0792878b2cc
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 0, y: 6}
+        - {x: -5, y: 3}
+        - {x: -10, y: -5}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 5}
+        - {x: 7, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6623e0bf7d434d009cd58a47fdcf28c6
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 4}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 3}
+        - {x: 9, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d1c5a57c1b406ba2fafc9a9c395525
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 6}
+        - {x: -10, y: -10}
+        - {x: 9, y: -10}
+        - {x: 10, y: -9}
+        - {x: 10, y: 1}
+        - {x: 0, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276b76fe905c4e35b36f50de9bf4248e
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -10, y: 5}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb74baf3d724f619f1bb1bfd71c53a9
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873c84f0b2b940bdaacece94d27968cc
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138a7c6b5834dbfafc67f58d0707b8f
+      internalID: 21300016
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab323cf5ffd9441e8aadc73be2899a1c
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425a958078b4425ea8e8d6446a6e04b0
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f9ffb867854183b5a122c26de6242a
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a7f1e99bf64e05aab6e030c13b922a
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5b4c85dedb468d812197471119655e
+      internalID: 21300026
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9830336be52442b381f533721b83860c
+      internalID: 21300028
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -9, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274059566865422286355bf7f7a55ff7
+      internalID: 21300030
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a4d2ae2ad24bc7aefa740db8665377
+      internalID: 21300032
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88837bcc07bf4b1ea46dc70c0f86d359
+      internalID: 21300034
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08b3981bea945338536d77d765f9709
+      internalID: 21300036
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6295193647245e0a78551323caf477b
+      internalID: 21300038
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -5, y: 2}
+        - {x: -10, y: -4}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -5}
+        - {x: 1, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d601d0a1fa9c483eb71d4075cf245aa5
+      internalID: 21300040
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -3, y: 2}
+        - {x: -10, y: -5}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -4}
+        - {x: 4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2589b125384348d4a7f4dcf66335bb5a
+      internalID: 21300042
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 1, y: -2}
+        - {x: -10, y: -3}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4c1b04c164d12ab899ea8a9bb236f
+      internalID: 21300044
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 6, y: 10}
+        - {x: 0, y: 3}
+        - {x: -1, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3c351447a3427b873363ca7f822d92
+      internalID: 21300046
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_24
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 0, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 2}
+        - {x: 9, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5183c4cf5c4af18b8772a570f07eab
+      internalID: 21300048
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: -10}
+        - {x: 3, y: -10}
+        - {x: 4, y: -6}
+        - {x: 1, y: 1}
+        - {x: -10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f55a16a57e43b88f6a252df65042f1
+      internalID: 21300050
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f028278886542fb83b28835850978ac
+      internalID: 21300052
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -10, y: 6}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8de09be2bb40be8a16974aa48e2321
+      internalID: 21300054
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8a6177500649448d5166ab4561c3fb
+      internalID: 21300056
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_29
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88449342b474f08922ae315fb1d183a
+      internalID: 21300058
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ef87b798474053bac47aa0de4d9fe6
+      internalID: 21300060
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -10, y: 9}
+        - {x: -10, y: -1}
+        - {x: -9, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f854e5311948c18235d73ca0009ae4
+      internalID: 21300062
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6877503f14ab4cbd80b7d9bcba8195a5
+      internalID: 21300064
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 9, y: -10}
+        - {x: 10, y: -1}
+        - {x: 10, y: 9}
+        - {x: 9, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32960a53f8b942eca2f2fd09afb1988a
+      internalID: 21300066
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5b130bccbc46f88d26011e58192062
+      internalID: 21300068
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae2dfcab26a46aba77d4690a0e5d73e
+      internalID: 21300070
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656e9296d949484ba9129cdc78f2433a
+      internalID: 21300072
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac442c579664dd5aa33bafb531b9e1c
+      internalID: 21300074
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_38
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90cc5be5622457c834a40cdc4b3df5e
+      internalID: 21300076
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_39
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -4, y: 10}
+        - {x: -10, y: 7}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1bd421e4604d28a57979f26d1b3ecd
+      internalID: 21300078
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3733479765641f2a41929262209097c
+      internalID: 21300080
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_41
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 6}
+        - {x: 4, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afccaf14057c46819983171a70f750fc
+      internalID: 21300082
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d06947a6a8466c80386caf9b159e40
+      internalID: 21300084
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 40
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641581706e3d425caa2ff56822a3d2f4
+      internalID: 21300086
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f344e094f9924dfa8b9522af2015303c
+      internalID: 21300088
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_45
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98142cec974439aaf189aba0d076038
+      internalID: 21300090
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15514b2dec1649cbb8a5048dcbc5a503
+      internalID: 21300092
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_47
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -9, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eade936163ea4349a9b01e828e2c50bb
+      internalID: 21300094
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aab36c5cdb435082a0a894993e8855
+      internalID: 21300096
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 9, y: -10}
+        - {x: 9, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cdc6c8ec1f4589aa2d71da918077f1
+      internalID: 21300098
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74993766fbd46ea8f2c440f0d8b4e09
+      internalID: 21300100
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd388052c3449c8a3fd180e88147f0d
+      internalID: 21300102
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440c178da0a045ea8d6bf1332cb848c9
+      internalID: 21300104
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484ad1efdef14393b75e0aeb7b716674
+      internalID: 21300106
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_54
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 6, y: 10}
+        - {x: 0, y: 3}
+        - {x: -1, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0818896c2da64ddfb767513fa3e6b1d5
+      internalID: 21300108
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: 0, y: 10}
+        - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 2}
+        - {x: 9, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5025a67e633c468a93c67be91640f51f
+      internalID: 21300110
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 20
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: -10}
+        - {x: 3, y: -10}
+        - {x: 4, y: -6}
+        - {x: 1, y: 1}
+        - {x: -10, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ae83d3d3fe433fbca56ba411531932
+      internalID: 21300112
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e1125db014934b6b7c9626c5735e7
+      internalID: 21300114
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0b6b4031a04ddfafd2fd5e0d3f76b4
+      internalID: 21300116
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_59
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06930ca2fe3428386dd237c5b9673d8
+      internalID: 21300118
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_60
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6b6de516c74ddc9b3c97587391802c
+      internalID: 21300120
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d501491457a46d5b4812aafee319312
+      internalID: 21300122
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd625db95844d6ebe0b49dd000eeba1
+      internalID: 21300124
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a4d9511b644335ad2a23ab0535269f
+      internalID: 21300126
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_64
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1457c885190f4a82a14c7bdd135cecb0
+      internalID: 21300128
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cdae3d1d804f5a9037228a04e6f08e
+      internalID: 21300130
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_66
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -7, y: 10}
+        - {x: -10, y: 5}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 4}
+        - {x: 6, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943d7476893d4575b4b7b423242ed9a9
+      internalID: 21300132
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_67
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -9, y: 10}
+        - {x: -10, y: 7}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 4}
+        - {x: 5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62b0012eefd4f848756bc1dfd4eaca0
+      internalID: 21300134
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_68
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -3, y: 10}
+        - {x: -7, y: 5}
+        - {x: -8, y: -2}
+        - {x: -3, y: -7}
+        - {x: 4, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8359db99f1434c955833f47bdb1ed9
+      internalID: 21300136
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: 10, y: -10}
+        - {x: 10, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d87b292af4221ba75ce1671e1a820
+      internalID: 21300138
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pr_tiles_0_70
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -10}
+        - {x: -10, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: -10}
+      physicsShape:
+      - - {x: -10, y: 10}
+        - {x: -10, y: -10}
+        - {x: -7, y: -10}
+        - {x: 3, y: -8}
+        - {x: 5, y: -4}
+        - {x: 5, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0454127bd74561860200a243fa3427
+      internalID: 21300140
+      vertices:
+      - {x: 0, y: 20}
+      - {x: 20, y: 20}
+      - {x: 0, y: 0}
+      - {x: 20, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_pr_tiles_0_0: 21300000
+      spr_pr_tiles_0_1: 21300002
+      spr_pr_tiles_0_10: 21300020
+      spr_pr_tiles_0_11: 21300022
+      spr_pr_tiles_0_12: 21300024
+      spr_pr_tiles_0_13: 21300026
+      spr_pr_tiles_0_14: 21300028
+      spr_pr_tiles_0_15: 21300030
+      spr_pr_tiles_0_16: 21300032
+      spr_pr_tiles_0_17: 21300034
+      spr_pr_tiles_0_18: 21300036
+      spr_pr_tiles_0_19: 21300038
+      spr_pr_tiles_0_2: 21300004
+      spr_pr_tiles_0_20: 21300040
+      spr_pr_tiles_0_21: 21300042
+      spr_pr_tiles_0_22: 21300044
+      spr_pr_tiles_0_23: 21300046
+      spr_pr_tiles_0_24: 21300048
+      spr_pr_tiles_0_25: 21300050
+      spr_pr_tiles_0_26: 21300052
+      spr_pr_tiles_0_27: 21300054
+      spr_pr_tiles_0_28: 21300056
+      spr_pr_tiles_0_29: 21300058
+      spr_pr_tiles_0_3: 21300006
+      spr_pr_tiles_0_30: 21300060
+      spr_pr_tiles_0_31: 21300062
+      spr_pr_tiles_0_32: 21300064
+      spr_pr_tiles_0_33: 21300066
+      spr_pr_tiles_0_34: 21300068
+      spr_pr_tiles_0_35: 21300070
+      spr_pr_tiles_0_36: 21300072
+      spr_pr_tiles_0_37: 21300074
+      spr_pr_tiles_0_38: 21300076
+      spr_pr_tiles_0_39: 21300078
+      spr_pr_tiles_0_4: 21300008
+      spr_pr_tiles_0_40: 21300080
+      spr_pr_tiles_0_41: 21300082
+      spr_pr_tiles_0_42: 21300084
+      spr_pr_tiles_0_43: 21300086
+      spr_pr_tiles_0_44: 21300088
+      spr_pr_tiles_0_45: 21300090
+      spr_pr_tiles_0_46: 21300092
+      spr_pr_tiles_0_47: 21300094
+      spr_pr_tiles_0_48: 21300096
+      spr_pr_tiles_0_49: 21300098
+      spr_pr_tiles_0_5: 21300010
+      spr_pr_tiles_0_50: 21300100
+      spr_pr_tiles_0_51: 21300102
+      spr_pr_tiles_0_52: 21300104
+      spr_pr_tiles_0_53: 21300106
+      spr_pr_tiles_0_54: 21300108
+      spr_pr_tiles_0_55: 21300110
+      spr_pr_tiles_0_56: 21300112
+      spr_pr_tiles_0_57: 21300114
+      spr_pr_tiles_0_58: 21300116
+      spr_pr_tiles_0_59: 21300118
+      spr_pr_tiles_0_6: 21300012
+      spr_pr_tiles_0_60: 21300120
+      spr_pr_tiles_0_61: 21300122
+      spr_pr_tiles_0_62: 21300124
+      spr_pr_tiles_0_63: 21300126
+      spr_pr_tiles_0_64: 21300128
+      spr_pr_tiles_0_65: 21300130
+      spr_pr_tiles_0_66: 21300132
+      spr_pr_tiles_0_67: 21300134
+      spr_pr_tiles_0_68: 21300136
+      spr_pr_tiles_0_69: 21300138
+      spr_pr_tiles_0_7: 21300014
+      spr_pr_tiles_0_70: 21300140
+      spr_pr_tiles_0_8: 21300016
+      spr_pr_tiles_0_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

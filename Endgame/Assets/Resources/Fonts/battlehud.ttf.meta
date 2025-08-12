@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 97c02e760a3ba3c45a60f32a757fca22
+timeCreated: 1725639463
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 12
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mars Needs...(RUS/ENG)
+  fontNames:
+  - Mars Needs...(RUS/ENG)
+  - Mars Needs...
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 2
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

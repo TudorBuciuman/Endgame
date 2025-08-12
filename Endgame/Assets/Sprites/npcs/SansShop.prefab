@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1262737523497067
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4056887613808598}
+  - component: {fileID: 212726630177768672}
+  - component: {fileID: 114485937101795551}
+  - component: {fileID: 61885791235060554}
+  - component: {fileID: 114457527914223651}
+  m_Layer: 0
+  m_Name: SansShop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4056887613808598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262737523497067}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.94, y: -1.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &212726630177768672
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262737523497067}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 489a7a14e7a5f3f4fb1cc6872cf99b5f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.9583333, y: 1.2916666}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &114485937101795551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262737523497067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d4c1103c5d4e42731ff2b51017df77, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  enabled: 1
+  lines:
+  - '*\twhoa,^05 you guys almost\n\tlooked like you were\n\tgonna jump at me.'
+  - '*\tdid you find an\n\tevil doppelganger or\n\tsomethin''?'
+  - '* ...^05 Yeah.'
+  - '*\twell,^05 maybe you should\n\tknow about some special\n\tattacks.'
+  - '*\tif you see a <color=#00A2E8FF>blue\n\tattack</color>,^05 don''t move and\n\tit won''t hurt you.'
+  - '*\there''s an easy way to\n\tkeep it in mind.'
+  - '*\timagine a stop sign.^10\n*\twhen you see a stop\n\tsign,^05 you <color=#FF0000FF>stop,</color>^05 right?'
+  - '*\tstop signs are <color=#FF0000FF>red</color>.\n*\tso imagine a <color=#00A2E8FF>blue</color> stop\n\tsign instead.'
+  - '*\tsimple,^05 right?^10\n*\twhen fighting,^05 think\n\tabout <color=#FFFF00FF>blue stop signs</color>.'
+  - '* Okay,^05 that would''ve\n  been nice to know in\n  the last place we were.'
+  - '* But uhh...^05 what about\n  those orange bullets we\n  just saw?'
+  - '*\twell,^05 for <color=#FCA600FF>orange attacks</color>,^05\n\tthink of that <color=#FF0000FF>stop sign</color>\n\tagain.'
+  - '*\t<color=#FCA600FF>orange</color> is the opposite\n\tof <color=#00A2E8FF>blue</color>,^05 right?'
+  - '*\tso do the <color=#00FF00FF>opposite\n\tof stop</color>.'
+  - '*\t... or in other words,^05\n\t<color=#00FF00FF>move through it</color>.'
+  - '*\thope that helps.'
+  sounds:
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsus
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsus
+  - snd_txtsus
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsans
+  - snd_txtsans
+  speed:
+  - 0
+  portraits:
+  - sans_neutral
+  - sans_side
+  - su_side_sweat
+  - sans_wink
+  - sans_neutral
+  - sans_neutral
+  - sans_neutral
+  - sans_neutral
+  - sans_neutral
+  - su_inquisitive
+  - su_neutral
+  - sans_side
+  - sans_neutral
+  - sans_neutral
+  - sans_side
+  - sans_wink
+  remarks: []
+  left:
+  leftOffset: {x: 0, y: 0}
+  right:
+  rightOffset: {x: 0, y: 0}
+  up:
+  upOffset: {x: 0, y: 0}
+  down:
+  downOffset: {x: 0, y: 0}
+  centerOffset: {x: 0, y: 0}
+  talkSprites: []
+  talkFramerate: 6
+  shopObject: {fileID: 1858420309134841, guid: 042467029947c6a4e8a01d3c80193ae3, type: 2}
+--- !u!61 &61885791235060554
+BoxCollider2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262737523497067}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.46237683}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9583333, y: 1.2916666}
+    newSize: {x: 0.9583333, y: 1.2916666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.9583333, y: 0.36691284}
+  m_EdgeRadius: 0
+--- !u!114 &114457527914223651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262737523497067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8efd37ad401b24900ddba7d4185696f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  offset: 0

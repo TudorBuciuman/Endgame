@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 8e87505be7e478b489752df8cafb2eb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spr_colortile_zap_blue_0
+  - first:
+      213: 21300002
+    second: spr_colortile_zap_blue_1
+  - first:
+      213: 21300004
+    second: spr_colortile_zap_blue_2
+  - first:
+      213: 21300006
+    second: spr_colortile_zap_blue_3
+  - first:
+      213: 21300008
+    second: spr_colortile_zap_blue_4
+  - first:
+      213: 21300010
+    second: spr_colortile_zap_blue_5
+  - first:
+      213: 21300012
+    second: spr_colortile_zap_blue_6
+  - first:
+      213: 21300014
+    second: spr_colortile_zap_blue_7
+  - first:
+      213: 21300016
+    second: spr_colortile_zap_blue_8
+  - first:
+      213: 21300018
+    second: spr_colortile_zap_blue_9
+  - first:
+      213: 21300020
+    second: spr_colortile_zap_blue_10
+  - first:
+      213: 21300022
+    second: spr_colortile_zap_blue_11
+  - first:
+      213: 21300024
+    second: spr_colortile_zap_blue_12
+  - first:
+      213: 21300026
+    second: spr_colortile_zap_blue_13
+  - first:
+      213: 21300028
+    second: spr_colortile_zap_blue_14
+  - first:
+      213: 21300030
+    second: spr_colortile_zap_blue_15
+  - first:
+      213: 21300032
+    second: spr_colortile_zap_blue_16
+  - first:
+      213: 21300034
+    second: spr_colortile_zap_blue_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8dbdd154c24ad9b39869078a806a3b
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -11, y: 13}
+        - {x: -13, y: 11}
+        - {x: -13, y: -11}
+        - {x: -11, y: -13}
+        - {x: 11, y: -13}
+        - {x: 13, y: -11}
+        - {x: 13, y: 11}
+        - {x: 11, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2003ba92463f4b1ba3a7cb8248484d5d
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: 12, y: 13}
+        - {x: -12, y: 13}
+        - {x: -13, y: 12}
+        - {x: -13, y: -12}
+        - {x: -12, y: -13}
+        - {x: 12, y: -13}
+        - {x: 13, y: -12}
+        - {x: 13, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ed9e1036e74fc6bbd78effa60b194b
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -11, y: 13}
+        - {x: -13, y: 11}
+        - {x: -13, y: -11}
+        - {x: -11, y: -13}
+        - {x: 11, y: -13}
+        - {x: 13, y: -11}
+        - {x: 13, y: 11}
+        - {x: 11, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99d3d3495c74bbbb3929e02aba9ead9
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329dc6603ae24d59a1d862dcc9a96c93
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd7228d0a8b4f52a834975215cd341b
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058c57b417c34b53b7f1385f9f98ceed
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27089781aa2246748322a6676b609bc7
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294d7a4e570841de8f0fefd0208d374a
+      internalID: 21300016
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939e754fe647442282fac5d3d26eaa01
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbea6f26ac5d4348a10e7ae94f5a9399
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651494d860fb4e938d873d43de4db889
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de44df47d4047a2ab13efae290bb9d2
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046853b1662a42c1b50f1e902152657c
+      internalID: 21300026
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38211aa435c84bb4b39974c945726c4e
+      internalID: 21300028
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -13, y: 13}
+        - {x: -13, y: -11}
+        - {x: -12, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b42012c48c4f39bb8665cd87cac9ce
+      internalID: 21300030
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800b1eec27b240ffb4f2a497ea050b89
+      internalID: 21300032
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_zap_blue_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -13}
+        - {x: -13, y: 13}
+        - {x: 13, y: 13}
+        - {x: 13, y: -13}
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5db46d57641faa53d4c94bab5e0f7
+      internalID: 21300034
+      vertices:
+      - {x: 0, y: 26}
+      - {x: 26, y: 26}
+      - {x: 0, y: 0}
+      - {x: 26, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_colortile_zap_blue_0: 21300000
+      spr_colortile_zap_blue_1: 21300002
+      spr_colortile_zap_blue_10: 21300020
+      spr_colortile_zap_blue_11: 21300022
+      spr_colortile_zap_blue_12: 21300024
+      spr_colortile_zap_blue_13: 21300026
+      spr_colortile_zap_blue_14: 21300028
+      spr_colortile_zap_blue_15: 21300030
+      spr_colortile_zap_blue_16: 21300032
+      spr_colortile_zap_blue_17: 21300034
+      spr_colortile_zap_blue_2: 21300004
+      spr_colortile_zap_blue_3: 21300006
+      spr_colortile_zap_blue_4: 21300008
+      spr_colortile_zap_blue_5: 21300010
+      spr_colortile_zap_blue_6: 21300012
+      spr_colortile_zap_blue_7: 21300014
+      spr_colortile_zap_blue_8: 21300016
+      spr_colortile_zap_blue_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

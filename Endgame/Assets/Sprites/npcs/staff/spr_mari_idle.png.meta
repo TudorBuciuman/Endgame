@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: 0aaba52e32145864aa9c32661e153c46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spr_mari_idle_0
+  - first:
+      213: 21300002
+    second: spr_mari_idle_1
+  - first:
+      213: 21300004
+    second: spr_mari_idle_2
+  - first:
+      213: 21300006
+    second: spr_mari_idle_3
+  - first:
+      213: 21300008
+    second: spr_mari_idle_4
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_mari_idle_0
+      rect:
+        serializedVersion: 2
+        x: 6.0761204
+        y: 40
+        width: 28.847757
+        height: 33.923878
+      alignment: 9
+      pivot: {x: 0.48266765, y: 0.58955526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.499999, y: -16.961939}
+        - {x: -14.499999, y: -12.961939}
+        - {x: -14.499999, y: 8.038061}
+        - {x: -5.499999, y: 17.038061}
+        - {x: 8.500001, y: 17.038061}
+        - {x: 11.500001, y: 13.038061}
+        - {x: 14.500001, y: -0.96193886}
+        - {x: 14.500001, y: -11.961939}
+        - {x: 9.500001, y: -16.961939}
+      physicsShape:
+      - - {x: 8.500001, y: 17.038063}
+        - {x: -5.499999, y: 17.038063}
+        - {x: -14.5, y: 8.038061}
+        - {x: -14.5, y: -12.961939}
+        - {x: -12.499999, y: -16.961939}
+        - {x: 9.500001, y: -16.961939}
+        - {x: 14.500001, y: -11.961939}
+        - {x: 14.500001, y: -0.96193886}
+        - {x: 11.500001, y: 13.038061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3327e1bb89546ee83e491d907cd3c16
+      internalID: 21300000
+      vertices:
+      - {x: 26.423878, y: 26.961939}
+      - {x: 29.423878, y: 1.9619389}
+      - {x: 29.423878, y: 12.961939}
+      - {x: 24.423878, y: -3.0380611}
+      - {x: 23.423878, y: 30.961939}
+      - {x: 9.423879, y: 30.961939}
+      - {x: 2.4238787, y: -3.0380611}
+      - {x: 0.42387867, y: 21.961939}
+      - {x: 0.42387867, y: 0.96193886}
+      indices: 080000000700000006000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mari_idle_1
+      rect:
+        serializedVersion: 2
+        x: 47.036285
+        y: 40
+        width: 27.887592
+        height: 35.923878
+      alignment: 9
+      pivot: {x: 0.464856, y: 0.5567328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.980082, y: -17.961939}
+        - {x: -13.980082, y: -8.961939}
+        - {x: -13.980082, y: 4.038061}
+        - {x: -12.980082, y: 10.038061}
+        - {x: -3.9800816, y: 18.038061}
+        - {x: 4.0199184, y: 18.038061}
+        - {x: 13.019918, y: 10.038061}
+        - {x: 14.019918, y: 8.038061}
+        - {x: 14.019918, y: -7.961939}
+        - {x: 9.019918, y: -17.961939}
+      physicsShape:
+      - - {x: 4.0199184, y: 18.038061}
+        - {x: -3.9800816, y: 18.038061}
+        - {x: -12.980082, y: 10.038061}
+        - {x: -13.980082, y: 4.038061}
+        - {x: -13.980082, y: -8.961939}
+        - {x: -9.980082, y: -17.961939}
+        - {x: 9.019918, y: -17.961939}
+        - {x: 14.019918, y: -7.961939}
+        - {x: 14.019918, y: 8.038061}
+        - {x: 13.019919, y: 10.038061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eef828f326040959078854a11d0458e
+      internalID: 21300002
+      vertices:
+      - {x: 27.943796, y: 25.961939}
+      - {x: 28.943796, y: 7.961939}
+      - {x: 28.943796, y: 23.961939}
+      - {x: 23.943796, y: -2.0380611}
+      - {x: 18.943796, y: 33.961937}
+      - {x: 10.943796, y: 33.961937}
+      - {x: 4.943796, y: -2.0380611}
+      - {x: 1.9437962, y: 25.961939}
+      - {x: 0.94379616, y: 19.961939}
+      - {x: 0.94379616, y: 6.961939}
+      indices: 090000000800000006000000070000000600000008000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mari_idle_2
+      rect:
+        serializedVersion: 2
+        x: 88.02675
+        y: 40
+        width: 25.897127
+        height: 36.923878
+      alignment: 9
+      pivot: {x: 0.46233898, y: 0.54165494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.975312, y: -18.461939}
+        - {x: -12.975312, y: -3.4619389}
+        - {x: -12.975312, y: 6.538061}
+        - {x: -6.975312, y: 18.538061}
+        - {x: 1.0246878, y: 18.538061}
+        - {x: 11.024688, y: 15.538061}
+        - {x: 13.024688, y: 4.538061}
+        - {x: 13.024688, y: -8.461939}
+        - {x: 6.024688, y: -18.461939}
+      physicsShape:
+      - - {x: 1.0246878, y: 18.538061}
+        - {x: -6.975312, y: 18.538061}
+        - {x: -12.975312, y: 6.538061}
+        - {x: -12.975312, y: -3.4619389}
+        - {x: -8.975312, y: -18.461939}
+        - {x: 6.0246882, y: -18.461939}
+        - {x: 13.024689, y: -8.461939}
+        - {x: 13.024689, y: 4.538061}
+        - {x: 11.024688, y: 15.538062}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd604efbdaf44f2e89624eb16c561cb8
+      internalID: 21300004
+      vertices:
+      - {x: 24.948563, y: 32.461937}
+      - {x: 26.948563, y: 8.461939}
+      - {x: 26.948563, y: 21.461939}
+      - {x: 19.948563, y: -1.5380611}
+      - {x: 14.948564, y: 35.461937}
+      - {x: 6.9485636, y: 35.461937}
+      - {x: 4.9485636, y: -1.5380611}
+      - {x: 0.9485636, y: 23.461939}
+      - {x: 0.9485636, y: 13.461939}
+      indices: 080000000700000006000000050000000600000007000000030000000600000005000000040000000300000005000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mari_idle_3
+      rect:
+        serializedVersion: 2
+        x: 8.026751
+        y: 0
+        width: 24.946497
+        height: 36.923878
+      alignment: 9
+      pivot: {x: 0.47995713, y: 0.54165494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.499999, y: -18.461939}
+        - {x: -12.499999, y: -12.461939}
+        - {x: -12.499999, y: 15.538061}
+        - {x: -10.499999, y: 18.538061}
+        - {x: 9.500001, y: 18.538061}
+        - {x: 12.500001, y: 9.538061}
+        - {x: 12.500001, y: -12.461939}
+        - {x: 6.500001, y: -18.461939}
+      physicsShape:
+      - - {x: -10.499999, y: 18.538061}
+        - {x: -12.499999, y: 15.538062}
+        - {x: -12.499999, y: -12.46194}
+        - {x: -11.499999, y: -18.461939}
+        - {x: 6.5000014, y: -18.461939}
+        - {x: 12.500001, y: -12.46194}
+        - {x: 12.500001, y: 9.538061}
+        - {x: 9.500001, y: 18.538061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71689f151f3e4744b456eb5905bdcac7
+      internalID: 21300006
+      vertices:
+      - {x: 22.473248, y: 35.461937}
+      - {x: 25.473248, y: 4.461939}
+      - {x: 25.473248, y: 26.461939}
+      - {x: 19.473248, y: -1.5380611}
+      - {x: 2.4732485, y: 35.461937}
+      - {x: 1.4732485, y: -1.5380611}
+      - {x: 0.47324848, y: 32.461937}
+      - {x: 0.47324848, y: 4.461939}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mari_idle_4
+      rect:
+        serializedVersion: 2
+        x: 48.02675
+        y: 0
+        width: 24.946497
+        height: 36.923878
+      alignment: 9
+      pivot: {x: 0.47995722, y: 0.54165494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.499997, y: -18.461939}
+        - {x: -12.499997, y: -12.461939}
+        - {x: -12.499997, y: 15.538061}
+        - {x: -10.499997, y: 18.538061}
+        - {x: 9.500003, y: 18.538061}
+        - {x: 12.500003, y: 9.538061}
+        - {x: 12.500003, y: -12.461939}
+        - {x: 6.500003, y: -18.461939}
+      physicsShape:
+      - - {x: -10.499997, y: 18.538061}
+        - {x: -12.499997, y: 15.538062}
+        - {x: -12.499997, y: -12.46194}
+        - {x: -11.499997, y: -18.461939}
+        - {x: 6.5000033, y: -18.461939}
+        - {x: 12.500003, y: -12.46194}
+        - {x: 12.500003, y: 9.538061}
+        - {x: 9.500003, y: 18.538061}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4794d16b7342e98bdc864bf17c97c9
+      internalID: 21300008
+      vertices:
+      - {x: 22.473248, y: 35.461937}
+      - {x: 25.473248, y: 4.461939}
+      - {x: 25.473248, y: 26.461939}
+      - {x: 19.473248, y: -1.5380611}
+      - {x: 2.4732485, y: 35.461937}
+      - {x: 1.4732485, y: -1.5380611}
+      - {x: 0.47324848, y: 32.461937}
+      - {x: 0.47324848, y: 4.461939}
+      indices: 070000000600000005000000040000000500000006000000030000000500000004000000000000000300000004000000010000000300000000000000020000000100000000000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_mari_idle_0: 21300000
+      spr_mari_idle_1: 21300002
+      spr_mari_idle_2: 21300004
+      spr_mari_idle_3: 21300006
+      spr_mari_idle_4: 21300008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 398280f29b0fa5e4db5b8b15c0c9521d
+timeCreated: 1725639463
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Saturn Boing
+  fontNames:
+  - Saturn Boing
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 1
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

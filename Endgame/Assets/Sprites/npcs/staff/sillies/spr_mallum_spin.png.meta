@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: 05c682eb7da681a488cc6402c6d44176
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spr_mallum_spin_0
+  - first:
+      213: 21300002
+    second: spr_mallum_spin_1
+  - first:
+      213: 21300004
+    second: spr_mallum_spin_2
+  - first:
+      213: 21300006
+    second: spr_mallum_spin_3
+  - first:
+      213: 21300008
+    second: spr_mallum_spin_4
+  - first:
+      213: 21300010
+    second: spr_mallum_spin_5
+  - first:
+      213: 21300012
+    second: spr_mallum_spin_6
+  - first:
+      213: 21300014
+    second: spr_mallum_spin_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_mallum_spin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -9, y: 14.000001}
+        - {x: -15, y: 8}
+        - {x: -15, y: -12}
+        - {x: -12, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: -3}
+        - {x: 8, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96859bf44014f409bb6716064093274
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -8, y: 14.000001}
+        - {x: -14.000001, y: 5}
+        - {x: -14.000001, y: -13}
+        - {x: -13, y: -15}
+        - {x: 14.000001, y: -15}
+        - {x: 14.000001, y: 9}
+        - {x: 3, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fd9a21bd7a4355a2d658e15c596061
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -5, y: 14.000001}
+        - {x: -10, y: 12}
+        - {x: -15, y: -2}
+        - {x: -15, y: -15}
+        - {x: 12, y: -15}
+        - {x: 15, y: -13}
+        - {x: 15, y: 11}
+        - {x: 7.0000005, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc91410e7a614756b958a6dd80a00cd0
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: 10, y: 14.000001}
+        - {x: -2, y: 14.000001}
+        - {x: -9, y: 11}
+        - {x: -15, y: -1}
+        - {x: -15, y: -15}
+        - {x: 11, y: -15}
+        - {x: 14.000001, y: -12}
+        - {x: 15, y: -10}
+        - {x: 15, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1c9c6477f14512814842a4c2e7a232
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -4, y: 14.000001}
+        - {x: -9, y: 11}
+        - {x: -11, y: 6}
+        - {x: -15, y: -3}
+        - {x: -15, y: -15}
+        - {x: 12, y: -15}
+        - {x: 15, y: -12}
+        - {x: 15, y: 10}
+        - {x: 7.0000005, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28470ee089784207bc2428caad8b358a
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -8, y: 14.000001}
+        - {x: -14.000001, y: 5}
+        - {x: -14.000001, y: -13}
+        - {x: -13, y: -15}
+        - {x: 14.000001, y: -15}
+        - {x: 14.000001, y: 9}
+        - {x: 3, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5067d31e3fbb4997b15fe9ade82353fa
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -9, y: 14.000001}
+        - {x: -15, y: 7.0000005}
+        - {x: -15, y: -13}
+        - {x: -12, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: -3}
+        - {x: 8, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8925db0228a445b3a4c6ae62c2e4cd46
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_mallum_spin_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -15}
+        - {x: -15, y: 15}
+        - {x: 15, y: 15}
+        - {x: 15, y: -15}
+      physicsShape:
+      - - {x: -15, y: 14.000001}
+        - {x: -15, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: -5}
+        - {x: 7.0000005, y: 13}
+        - {x: 4, y: 14.000001}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df80ce551bd4212824adbd69c511668
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 30}
+      - {x: 30, y: 30}
+      - {x: 0, y: 0}
+      - {x: 30, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_mallum_spin_0: 21300000
+      spr_mallum_spin_1: 21300002
+      spr_mallum_spin_2: 21300004
+      spr_mallum_spin_3: 21300006
+      spr_mallum_spin_4: 21300008
+      spr_mallum_spin_5: 21300010
+      spr_mallum_spin_6: 21300012
+      spr_mallum_spin_7: 21300014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

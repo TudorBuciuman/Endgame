@@ -1,0 +1,675 @@
+fileFormatVersion: 2
+guid: bbc11c3804fbdb443802e04829de06eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spr_colortile_piranhas_0
+  - first:
+      213: 21300002
+    second: spr_colortile_piranhas_1
+  - first:
+      213: 21300004
+    second: spr_colortile_piranhas_2
+  - first:
+      213: 21300006
+    second: spr_colortile_piranhas_3
+  - first:
+      213: 21300008
+    second: spr_colortile_piranhas_4
+  - first:
+      213: 21300010
+    second: spr_colortile_piranhas_5
+  - first:
+      213: 21300012
+    second: spr_colortile_piranhas_6
+  - first:
+      213: 21300014
+    second: spr_colortile_piranhas_7
+  - first:
+      213: 21300016
+    second: spr_colortile_piranhas_8
+  - first:
+      213: 21300018
+    second: spr_colortile_piranhas_9
+  - first:
+      213: 21300020
+    second: spr_colortile_piranhas_10
+  - first:
+      213: 21300022
+    second: spr_colortile_piranhas_11
+  - first:
+      213: 21300024
+    second: spr_colortile_piranhas_12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -7.0000005, y: -5}
+        - {x: -6, y: -8}
+        - {x: 0, y: -8}
+        - {x: 2, y: -6}
+        - {x: 1, y: -3}
+        - {x: -5, y: -3}
+      - - {x: -5, y: -1}
+        - {x: 7.0000005, y: -1}
+        - {x: 8, y: 0}
+        - {x: 8, y: 6}
+        - {x: -8, y: 6}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878332eb4a1e4f8ab23936ad7a563e72
+      internalID: 21300000
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -7.0000005, y: -5}
+        - {x: -6, y: -8}
+        - {x: 0, y: -8}
+        - {x: 2, y: -6}
+        - {x: 1, y: -3}
+        - {x: -5, y: -3}
+      - - {x: -5, y: -1}
+        - {x: 7.0000005, y: -1}
+        - {x: 8, y: 0}
+        - {x: 8, y: 6}
+        - {x: -8, y: 6}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d87997ab96b4b1da3c16688f2f25463
+      internalID: 21300002
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -5, y: -2}
+        - {x: -8, y: -5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -5}
+        - {x: 2, y: -2}
+      - - {x: -8, y: 7.0000005}
+        - {x: -8, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: 3, y: 7.0000005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a068c4a0f1b473d8866455b169a3766
+      internalID: 21300004
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -5, y: -2}
+        - {x: -8, y: -5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -5}
+        - {x: 2, y: -2}
+      - - {x: -8, y: 7.0000005}
+        - {x: -8, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: 3, y: 7.0000005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d71041d0d64dc3bde6480d0031dc2a
+      internalID: 21300006
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -5, y: -2}
+        - {x: -8, y: -5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -5}
+        - {x: 2, y: -2}
+      - - {x: -8, y: 7.0000005}
+        - {x: -8, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: 3, y: 7.0000005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af131f1713614b0fa1b1017a8161338a
+      internalID: 21300008
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: -7.0000005, y: 8}
+        - {x: -8, y: 7.0000005}
+        - {x: -8, y: -8}
+        - {x: 7.0000005, y: -8}
+        - {x: 8, y: -7.0000005}
+        - {x: 8, y: 4}
+        - {x: 6, y: 7.0000005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159e5bc312d64d1ba457c3e9cec34e82
+      internalID: 21300010
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883156a8646c49b2a31dd3e3024fb23f
+      internalID: 21300012
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 7.0000005}
+        - {x: 7.0000005, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1486cf163a54750a09e7a4f74e58577
+      internalID: 21300014
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3c06c60ad44136ba94be9300419eae
+      internalID: 21300016
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 7.0000005}
+        - {x: 7.0000005, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabe9e4132674152b42d9cb06c7a1ac1
+      internalID: 21300018
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: -7.0000005, y: 8}
+        - {x: -8, y: 7.0000005}
+        - {x: -8, y: -8}
+        - {x: 7.0000005, y: -8}
+        - {x: 8, y: -7.0000005}
+        - {x: 8, y: 4}
+        - {x: 6, y: 7.0000005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b266569d88476fb4719fab878def37
+      internalID: 21300020
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -5, y: -2}
+        - {x: -8, y: -5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -5}
+        - {x: 2, y: -2}
+      - - {x: -8, y: 7.0000005}
+        - {x: -8, y: -2}
+        - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: 3, y: 7.0000005}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e435e6c8ca49fba0e08c362e82945b
+      internalID: 21300022
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_colortile_piranhas_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -7.0000005, y: -5}
+        - {x: -6, y: -8}
+        - {x: 0, y: -8}
+        - {x: 2, y: -6}
+        - {x: 1, y: -3}
+        - {x: -5, y: -3}
+      - - {x: -5, y: -1}
+        - {x: 7.0000005, y: -1}
+        - {x: 8, y: 0}
+        - {x: 8, y: 6}
+        - {x: -8, y: 6}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3139972ebe34242ace850e84752d071
+      internalID: 21300024
+      vertices:
+      - {x: 0, y: 16}
+      - {x: 16, y: 16}
+      - {x: 0, y: 0}
+      - {x: 16, y: 0}
+      indices: 000000000100000002000000020000000100000003000000
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_colortile_piranhas_0: 21300000
+      spr_colortile_piranhas_1: 21300002
+      spr_colortile_piranhas_10: 21300020
+      spr_colortile_piranhas_11: 21300022
+      spr_colortile_piranhas_12: 21300024
+      spr_colortile_piranhas_2: 21300004
+      spr_colortile_piranhas_3: 21300006
+      spr_colortile_piranhas_4: 21300008
+      spr_colortile_piranhas_5: 21300010
+      spr_colortile_piranhas_6: 21300012
+      spr_colortile_piranhas_7: 21300014
+      spr_colortile_piranhas_8: 21300016
+      spr_colortile_piranhas_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
