@@ -160,11 +160,12 @@ public class Selection : UIComponent
                     yAxisIsDown = true;
                 }
             }
-            if (Input.GetKeyDown(KeyCode.Z))
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
             {
                 axisIsDown = false;
                 xAxisIsDown = false;
                 yAxisIsDown = false;
+                playAudio = true;
                 if (playAudio)
                 {
                     texts[(int)index[0], (int)index[1]].GetComponent<AudioSource>().clip = Resources.Load<AudioClip>("sounds/snd_select");
@@ -197,10 +198,6 @@ public class Selection : UIComponent
             waitUntilUp = false;
         }
     }
-    public void Reactivate()
-    {
-        Enable();
-    }
     public void CreateSelections(string[,] sels, Vector2 firstPos, Vector2 difference, Vector2 soulDistFromPivot, string font, bool useSoul, bool makeSound, SelectableBehaviour originClass, int origId)
     {
         base.transform.localPosition = new Vector2(0f, 0f);
@@ -230,7 +227,7 @@ public class Selection : UIComponent
             }
         }
         soulDif = soulDistFromPivot;
-        //index = Vector2.zero;
+        index = Vector2.zero;
         isUsingSoul = true;
         
         if (isUsingSoul)
@@ -293,7 +290,10 @@ public class Selection : UIComponent
                 texts[(int)index[0], (int)index[1]].GetComponent<Text>().color = Color.white;//selectionColors[(int)Util.GameManager().GetFlag(223)];
             }
             isEnabled = true;
+            
         }
+        texts[(int)index[0], (int)index[1]].GetComponent<AudioSource>().clip = Resources.Load<AudioClip>("sounds/snd_menumove");
+        texts[(int)index[0], (int)index[1]].GetComponent<AudioSource>().Play();
     }
 
     public void Disable()

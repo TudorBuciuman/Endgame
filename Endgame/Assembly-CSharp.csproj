@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Util.cs" />
     <Compile Include="Assets\Scripts\Shaker.cs" />
     <Compile Include="Assets\Scripts\SelectableBehiavor.cs" />
+    <Compile Include="Assets\Scripts\QuitFunction.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\InteractTextBox.cs" />
     <Compile Include="Assets\Scripts\Fade.cs" />

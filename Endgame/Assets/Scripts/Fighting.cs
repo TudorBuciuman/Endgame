@@ -260,17 +260,17 @@ public class Fighting : MonoBehaviour
     {
         mountain_dark.SetActive(true);
         yield return StartCoroutine(SlowDown(4));
-        audioSource.volume = 100;
         yield return new WaitForSeconds(2);
         audioSource.clip = IamNotHome_OnSight;
+        audioSource.volume = 100;
         audioSource.Play();
         mountain_dark.SetActive(true);
         //shake low
         StartCoroutine(Shake(150f, 0.001f));
-        yield return new WaitForSeconds(154);
+        yield return new WaitForSeconds(151);
         mountain_halo.SetActive(true);
         mountain_dark.SetActive(false);
-
+        PlayerPrefs.SetInt("sawIntro", 10);
         yield return new WaitForSeconds(55.3f);
         mountain_halo.SetActive(false);
         mountain_dark.SetActive(true);

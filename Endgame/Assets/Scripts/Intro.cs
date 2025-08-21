@@ -22,6 +22,7 @@ public class Intro : MonoBehaviour
         //    TTG.sprite = logoBlackndWhite;
         
         StartCoroutine(PlayOnSight());
+        if(PlayerPrefs.GetInt("sawIntro")==10)
         StartCoroutine(Close());
     }
     public IEnumerator Close()
@@ -55,6 +56,7 @@ public class Intro : MonoBehaviour
         Text.gameObject.SetActive(false);
         PlaySound();
         yield return Waiting(6f);
+        SceneManager.LoadScene("Fighting");
         //PlayerDataData.Intro_Fighting();
     }
 

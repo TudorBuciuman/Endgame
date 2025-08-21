@@ -93,7 +93,7 @@ public class TextUT : MonoBehaviour
         voiceSource = base.gameObject.AddComponent<AudioSource>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         for (int i = 0; i <= currentPos; i++)
         {

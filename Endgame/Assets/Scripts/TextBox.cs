@@ -146,7 +146,7 @@ public class TextBox : UIComponent
                     }
                 }
             }
-            else if ((Input.GetKeyDown(KeyCode.Z) || forceAdvance) && !disabled)
+            else if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return)  || Input.GetKeyDown(KeyCode.KeypadEnter) || forceAdvance) && !disabled)
             {
                 forceAdvance = false;
                 text.DestroyOldText();

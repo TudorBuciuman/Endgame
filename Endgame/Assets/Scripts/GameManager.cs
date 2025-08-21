@@ -8,7 +8,7 @@ using UnityEngine.XR;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager instance=null;
 
     public SaveFile savedFile;
 
@@ -26,11 +26,11 @@ public class GameManager : MonoBehaviour
 
     private List<int> items;
 
-    private int[] weapon;
+    private int weapon;
 
-    private int[] armor;
+    private int armor;
 
-    private int[] hp;
+    private int hp;
 
     private int deaths;
 
@@ -49,9 +49,9 @@ public class GameManager : MonoBehaviour
         1700, 2500, 3500, 5000, 7000, 10000, 15000, 25000, 50000, 99999
     };
 
-    private int[] atBuffs = new int[3];
+    private int atBuffs;
 
-    private int[] dfBuffs = new int[3];
+    private int dfBuffs;
 
     private bool susieActive = true;
 
@@ -105,26 +105,31 @@ public class GameManager : MonoBehaviour
 
     public void Awake()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
-        //Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Application.targetFrameRate = 30;
+        QualitySettings.vSyncCount = 0;
         canMove = true;
         canInteract = true;
         menuIsOpen = false;
         menuDisabled = false;
         menuLocked = false;
-        if (instance == null)
+        items = new List<int>(){0, 1, 23, 34,15,2,15,-1};
+        armor = 7;
+        weapon = 4;
+        exp = -1;
+        if (instance==null)
         {
             instance = this;
-
             GameObject gameObject = new GameObject("FadeCanvas", typeof(Canvas));
             gameObject.GetComponent<Canvas>().renderMode = RenderMode.ScreenSpaceOverlay;
-            gameObject.GetComponent<Canvas>().renderMode = RenderMode.WorldSpace;
+            //gameObject.GetComponent<Canvas>().renderMode = RenderMode.WorldSpace;
             gameObject.GetComponent<Canvas>().sortingOrder = 2000;
             gameObject.transform.position = Vector3.zero;
             gameObject.transform.localScale = new Vector3(1f / 48f, 1f / 48f, 1f);
             Instantiate(Resources.Load<GameObject>("ui/FadeObj"), gameObject.transform).name = "FadeObj";
             DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(this);
 
             mp = base.gameObject.AddComponent<MusicPlayer>();
             aud = base.gameObject.AddComponent<AudioSource>();
@@ -133,7 +138,10 @@ public class GameManager : MonoBehaviour
             //config = new Config("config.ini");
             //LoadConfigData();
             base.gameObject.AddComponent<UTInput>();
-           // miscStrings = base.gameObject.AddComponent<MiscellaneousStrings>();
+            // miscStrings = base.gameObject.AddComponent<MiscellaneousStrings>();
+            GameObject obj = Instantiate(Resources.Load<GameObject>("ui/QuitFunction"));
+            obj.name = "QuitFunction";
+            UnityEngine.Object.DontDestroyOnLoad(obj);
         }
         else if (instance != this)
         {
@@ -166,6 +174,30 @@ public class GameManager : MonoBehaviour
     {
         aud.clip = Resources.Load<AudioClip>(clip);
         aud.Play();
+    }
+    public int GetATK()
+    {
+        int num = Items.ItemValue(GetWeapon());
+        return GetATKRaw() + num;
+    }
+
+    public int GetATKRaw()
+    {
+        int num = (GetLV() - 1) * 2;
+        //num += atBuffs;
+        return num;
+    }
+
+    public int GetDEF()
+    {
+        return GetDEFRaw() + Items.ItemValue(GetArmor());
+    }
+
+    public int GetDEFRaw()
+    {
+        int num = Mathf.FloorToInt((float)GetLV() / 5f);
+        //num += dfBuffs;
+        return num;
     }
 
     public void PlayMusic(string music, float pitch, float volume)
@@ -303,14 +335,33 @@ public class GameManager : MonoBehaviour
         SceneManager.sceneLoaded += OnAreaLoaded;
     }
 
-    public void LoadArea(int sceneName, bool fadeIn, Vector2 pos, Vector2 dir)
+    public void LoadArea(int sceneName, bool fadeIn, Vector2 pos, byte dir)
     {
         lastZoneForceLoad = false;
         nextOWSong = "zoneMusic";
         zone = sceneName;
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         spawnPos = pos;
-        spawnDir = dir;
+        if (dir == 0)
+        {
+            //up
+            spawnDir = new Vector2(0, 1);
+        }
+        else if (dir == 1)
+        {
+            //right
+            spawnDir = new Vector2(1, 0);
+        }
+        else if (dir == 2)
+        {
+            //left
+            spawnDir = new Vector2(0,-1);
+        }
+        else
+        {
+            //down
+            spawnDir = new Vector2(-1, 0);
+        }
         newSceneFadeIn = fadeIn;
         SceneManager.sceneLoaded += OnAreaLoaded;
     }
@@ -352,14 +403,14 @@ public class GameManager : MonoBehaviour
                     spawnDir = Vector2.down;
                     wrongWarp = false;
                 }
-             //   if ((bool)GameObject.Find("Player").GetComponent<OverworldPlayer>())
-             //   {
-             //       GameObject.Find("Player").GetComponent<OverworldPlayer>().HandleSpawn(spawnPos, spawnDir);
-             //   }
+                if ((bool)GameObject.Find("Player").GetComponent<PlayerController>())
+                {
+                    GameObject.Find("Player").GetComponent<PlayerController>().HandleSpawn(spawnPos, spawnDir);
+                }
             }
             savePointSpawn = false;
             //EnablePlayerMovement();
-            PlayMusic(nextOWSong);
+            //PlayMusic(nextOWSong);
     }
     public int GetLV()
     {
@@ -434,27 +485,23 @@ public class GameManager : MonoBehaviour
     {
         this.gold = gold;
     }
-    public int GetHP(int partyMember)
+    public int GetHP()
     {
-        if (partyMember > 2)
-        {
-            return hp[0];
-        }
-        return hp[partyMember];
+        return hp;
     }
-    public int GetMaxHP(int partyMember)
+    public int GetMaxHP()
     {
-        return GetMaxHP(partyMember, exp);
+        return GetMaxHP(exp);
     }
 
-    public int GetMaxHP(int partyMember, int exp)
+    public int GetMaxHP(int exp)
     {
-        float num = ((partyMember == 1) ? 1.5f : 1f);
-        float num2 = ((partyMember == 1) ? 1.25f : 1f);
+        float num = 1;
+        float num2 = 1;
         int num3 = Mathf.RoundToInt(20f * num + (float)(4 * (GetLV(exp) - 1)) * num2);
         if (GetLV(exp) == 20)
         {
-            num3 = ((partyMember == 1) ? 150 : 100);
+            num3 = 99;
         }
 
         return num3;
@@ -464,58 +511,36 @@ public class GameManager : MonoBehaviour
         return items[id];
     }
 
-    public int GetWeapon(int partyMember)
+    public int GetWeapon()
     {
-        if (partyMember > 2)
-        {
-            if (partyMember == 3)
-            {
-                return 20;
-            }
-            return 0;
-        }
-        return weapon[partyMember];
+        return weapon;
     }
 
-    public int GetArmor(int partyMember)
+    public int GetArmor()
     {
-        if (partyMember > 2)
-        {
-            return 0;
-        }
-        return armor[partyMember];
+        return armor;
     }
-    public void UseItem(int partyMember, int index)
+    public void UseItem(int index)
     {
         if (Items.ItemType(GetItem(index)) == 0)
         {
-            int item = GetItem(index);
-            if (item == 7)
-            {
-                PlayGlobalSFX("sounds/snd_heal");
-            }
-            else
-            {
-                PlayGlobalSFX("sounds/snd_swallow");
-                healAudFrames = 1;
-                    healAudSound = "sounds/snd_heal";
-            }
-            //EatItem(partyMember, index);
+            PlayGlobalSFX("sounds/snd_heal");
+
+            EatItem(index);
         }
-        else if (Items.ItemType(GetItem(index)) == 1 && partyMember != 1 && (partyMember != 2 || GetItem(index) != 41))
+        else if (Items.ItemType(GetItem(index)) == 1)
         {
             PlayGlobalSFX("sounds/snd_item");
             aud.Play();
-            //ChangeWeapon(partyMember, index);
+            ChangeWeapon(index);
         }
         else if (Items.ItemType(GetItem(index)) == 4)
         {
-            PlayGlobalSFX("sounds/snd_swallow");
             healAudFrames = 1;
             healAudSound = "sounds/snd_heal";
             int heal = Items.ItemValue(GetItem(index));
             //HealAll(heal, includeOutOfParty: false);
-            //RemoveItem(index);
+            RemoveItem(index);
         }
     }
     public void RemoveItem(int index)
@@ -527,5 +552,78 @@ public class GameManager : MonoBehaviour
     {
         menuDisabled = true;
     }
+    public void ChangeWeapon(int index)
+    {
+        int id = weapon;
+        weapon = items[index];
+        RemoveItem(index);
+        AddItem(id);
+    }
+    public void AddItem(int id)
+    {
+        if (id > -1)
+        {
+            items[FirstFreeItemSpace()] = id;
+        }
+    }
+    public int FirstFreeItemSpace()
+    {
+        for (int i = 0; i < items.Count; i++)
+        {
+            if (items[i] == -1)
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+    public void ChangeArmor(int index)
+    {
+        int num = armor;
+        armor = items[index];
+        RemoveItem(index);
+        AddItem(num);
+    }
 
+    public void EatItem(int index)
+    {
+        int item = GetItem(index);
+        int heal = Items.ItemValue(item);
+        Heal(heal);
+        
+        RemoveItem(index);
+    }
+
+    public void Heal(int heal)
+    {
+        if (hp <= GetMaxHP())
+        {
+            hp += heal;
+            if (hp> GetMaxHP())
+            {
+                hp= GetMaxHP();
+            }
+        }
+    }
+
+    public void SetHP(int hp)
+    {
+        if (hp > GetMaxHP())
+        {
+            hp = GetMaxHP();
+        }
+        if (hp <= 0)
+        {
+            hp = 0;
+            //Death();
+        }
+    }
+    public bool MenuDis()
+    {
+        return menuDisabled;
+    }
+    public void SetMenuDisabled(bool v)
+    {
+        menuDisabled = v;
+    }
 }

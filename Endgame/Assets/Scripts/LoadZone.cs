@@ -9,10 +9,7 @@ public class LoadingZone : OverworldManipulator
     private Vector2 newPos = Vector2.zero;
 
     [SerializeField]
-    private bool vertical = true;
-
-    [SerializeField]
-    private bool downOrLeft = true;
+    private byte face = 0;
 
     [SerializeField]
     private int fadeType;
@@ -57,13 +54,7 @@ public class LoadingZone : OverworldManipulator
         }
         else
         {
-            //Object.FindObjectOfType<GameManager>().EnablePlayerMovement();
-            Vector2 dir = (vertical ? Vector2.up : Vector2.right);
-            if (downOrLeft)
-            {
-                dir *= -1f;
-            }
-            FindFirstObjectByType<GameManager>().LoadArea(newScene, fadeIn: true, newPos, dir);
+            FindFirstObjectByType<GameManager>().LoadArea(newScene, fadeIn: true, newPos, face);
         }
         activated = false;
     }

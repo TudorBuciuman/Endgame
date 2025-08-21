@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameUI : MonoBehaviour
@@ -18,12 +19,17 @@ public class GameUI : MonoBehaviour
     public void Start()
     {
         StartCoroutine(Presser());
-        GameManager.instance.SetMenuDis();
+        //GameManager.instance.SetMenuDis();
     }
     void Update()
     {
         if (pressedZ)
         {
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            {
+                if(index==1)
+                GoToScene("fallen");
+            }
             if (Input.GetKeyDown(KeyCode.DownArrow))
             {
                 if (index == 1 || index == 2)
@@ -105,5 +111,9 @@ public class GameUI : MonoBehaviour
             }
             yield return null;
         }
+    }
+    public void GoToScene(string scene)
+    {
+        SceneManager.LoadScene(scene);
     }
 }
