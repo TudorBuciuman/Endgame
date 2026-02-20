@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -16,9 +17,28 @@ public class GameUI : MonoBehaviour
     public Text Reset;
     public Text Sett;
     public Color yellow =new(255, 255, 0);
+    public Text LV, TIME, ZONE;
+    public static bool canSkip = false;
     public void Start()
     {
-        StartCoroutine(Presser());
+        GameManager.instance.SetMenu(true);
+        if (canSkip)
+        {
+            canSkip = false;
+            logo.SetActive(false);
+            pressedZ = true;
+        }
+        else
+        {
+            FindFirstObjectByType<GameManager>().PlayMusic(song);
+            audioSource.Play();
+            StartCoroutine(Presser());
+        }
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        LV.text = "LV "+GameManager.instance.GetLV().ToString();
+        TIME.text = GameManager.instance.GetFormattedUpdatedPlayTime();
+        ZONE.text = MapInfo.GetMapName(GameManager.instance.GetZone());
         //GameManager.instance.SetMenuDis();
     }
     void Update()
@@ -27,8 +47,17 @@ public class GameUI : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
             {
-                if(index==1)
-                GoToScene("fallen");
+                if (index == 1)
+                {
+                    GoToScene(GameManager.instance.GetZone());
+                    GameManager.instance.SetMenuToBeOpened();
+                }
+                else if (index == 3)
+                    SceneManager.LoadScene("Settings");
+                else
+                {
+                    //
+                }
             }
             if (Input.GetKeyDown(KeyCode.DownArrow))
             {
@@ -98,22 +127,22 @@ public class GameUI : MonoBehaviour
     }
     public IEnumerator Presser()
     {
-        audioSource.clip = song;
+        
         while (true)
         {
             if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return))
             {
                 yield return new WaitForSeconds(0.2f);
                 logo.SetActive(false);
-                audioSource.Play();
                 pressedZ = true;
                 yield break;
             }
             yield return null;
         }
     }
-    public void GoToScene(string scene)
+    public void GoToScene(int scene)
     {
-        SceneManager.LoadScene(scene);
+        GameManager.instance.StartTrackTime();
+        GameManager.instance.LoadArea(scene, true, GameManager.instance.save.pos, 2);
     }
 }

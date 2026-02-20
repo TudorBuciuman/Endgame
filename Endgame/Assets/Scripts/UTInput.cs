@@ -4,23 +4,6 @@ using UnityEngine;
 
 public class UTInput : MonoBehaviour
 {
-    private static float xAxis = 0f;
-
-    private static float yAxis = 0f;
-
-    private static int z = 0;
-
-    private static bool zHold = false;
-
-    private static int x = 0;
-
-    private static bool xHold = false;
-
-    private static int c = 0;
-
-    private static bool cHold = false;
-
-    private static float joystickActiveZone = 0.5f;
 
     public static bool joystickIsActive = false;
 
@@ -151,7 +134,7 @@ public class UTInput : MonoBehaviour
         {
             case "Vertical":
                 return (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)) ? 1f :
-                   (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow)) ? -1f : 0f ));
+                   (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow)) ? -1f : 0f));
 
             case "Horizontal":
                 return (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow)) ? 1f :
@@ -159,137 +142,93 @@ public class UTInput : MonoBehaviour
 
             default:
                 return 0f;
+        }
     }
-}
+    public static float GetAxisDown(string name)
+    {
+        switch (name)
+        {
+            case "Vertical":
+                return (Input.GetKeyDown(KeyCode.W) || (Input.GetKeyDown(KeyCode.UpArrow)) ? 1f :
+                   (Input.GetKeyDown(KeyCode.S) || (Input.GetKeyDown(KeyCode.DownArrow)) ? -1f : 0f));
 
-public static float GetAxis(string name)
+            case "Horizontal":
+                return (Input.GetKeyDown(KeyCode.D) || (Input.GetKeyDown(KeyCode.RightArrow)) ? 1f :
+                   (Input.GetKeyDown(KeyCode.A) || (Input.GetKeyDown(KeyCode.LeftArrow)) ? -1f : 0f));
+
+            default:
+                return 0f;
+        }
+    }
+
+    public static float GetAxis(string name)
     {
         return GetAxisRaw(name);
     }
-    /*
+    
     public static bool GetButtonDown(string button)
     {
         if (!Application.isFocused)
         {
             return false;
         }
-        bool flag = false;
         if (button == "Z")
         {
-            button = "Confirm";
+            return Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter)|| Input.GetKeyDown(KeyCode.Return);
         }
         if (button == "X")
         {
-            button = "Cancel";
+            return Input.GetKeyDown(KeyCode.X);
         }
         if (button == "C")
         {
-            button = "Menu";
+            return Input.GetKeyDown(KeyCode.C);
         }
-        if (joystickIsActive && Gamepad.current != null)
-        {
-            flag = Gamepad.current[buttons[button]].wasPressedThisFrame;
-        }
-        else if (Keyboard.current != null)
-        {
-            flag = Keyboard.current[keys[button]].wasPressedThisFrame;
-        }
-        if (!flag && Keyboard.current != null)
-        {
-            Key[] altKeys = GetAltKeys(button);
-            foreach (Key key in altKeys)
-            {
-                if (key != 0 && Keyboard.current[key].wasPressedThisFrame)
-                {
-                    flag = true;
-                }
-            }
-        }
-        return flag;
+        return false;
     }
-
+    
     public static bool GetButtonUp(string button)
     {
         if (!Application.isFocused)
         {
             return false;
         }
-        bool flag = false;
         if (button == "Z")
         {
-            button = "Confirm";
+            return Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.KeypadEnter) || Input.GetKeyUp(KeyCode.Return);
         }
         if (button == "X")
         {
-            button = "Cancel";
+            return Input.GetKeyUp(KeyCode.X);
         }
         if (button == "C")
         {
-            button = "Menu";
+            return Input.GetKeyUp(KeyCode.C);
         }
-        if (joystickIsActive && Gamepad.current != null)
-        {
-            flag = Gamepad.current[buttons[button]].wasReleasedThisFrame;
-        }
-        else if (Keyboard.current != null)
-        {
-            flag = Keyboard.current[keys[button]].wasReleasedThisFrame;
-        }
-        if (!flag && Keyboard.current != null)
-        {
-            Key[] altKeys = GetAltKeys(button);
-            foreach (Key key in altKeys)
-            {
-                if (key != 0 && Keyboard.current[key].wasReleasedThisFrame)
-                {
-                    flag = true;
-                }
-            }
-        }
-        return flag;
+        return false;
     }
-
+    
     public static bool GetButton(string button)
     {
         if (!Application.isFocused)
         {
             return false;
         }
-        bool flag = false;
         if (button == "Z")
         {
-            button = "Confirm";
+            return Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.KeypadEnter) || Input.GetKey(KeyCode.Return);
         }
         if (button == "X")
         {
-            button = "Cancel";
+            return Input.GetKey(KeyCode.X);
         }
         if (button == "C")
         {
-            button = "Menu";
+            return Input.GetKey(KeyCode.C);
         }
-        if (joystickIsActive && Gamepad.current != null)
-        {
-            flag = Gamepad.current[buttons[button]].isPressed;
-        }
-        else if (Keyboard.current != null)
-        {
-            flag = Keyboard.current[keys[button]].isPressed;
-        }
-        if (!flag && Keyboard.current != null)
-        {
-            Key[] altKeys = GetAltKeys(button);
-            foreach (Key key in altKeys)
-            {
-                if (key != 0 && Keyboard.current[key].isPressed)
-                {
-                    flag = true;
-                }
-            }
-        }
-        return flag;
+        return false;
     }
-
+    /*
     public static string GetKeyName(string input)
     {
         if (input == "Z")

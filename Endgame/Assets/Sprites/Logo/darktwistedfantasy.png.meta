@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      darktwistedfantasy_0: 8797839661951152803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

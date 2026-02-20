@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_sanscorridor_0
+      name: bg_sanscorridor 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1900
-        width: 100
-        height: 100
+        y: 380
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67ee2325b805f7a458336b7d1dd33112
-      internalID: -1197418059
+      spriteID: 1e5fe3046f3432d4aaead22ce974a8d4
+      internalID: 1401796079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_1
+      name: bg_sanscorridor 1_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1900
-        width: 100
-        height: 100
+        x: 20
+        y: 380
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6770955ada2ac54bbdc54f397c8da4e
-      internalID: 1716004731
+      spriteID: 11cab029b8870a54e94d25dfba8d54ad
+      internalID: 2108656875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_2
+      name: bg_sanscorridor 1_2
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1900
-        width: 100
-        height: 100
+        x: 40
+        y: 380
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,83 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d039a46f0275545982120f23cbf79f
-      internalID: 706673254
+      spriteID: bfaf297e2971482418085fc21e6c628a
+      internalID: 120566985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1800
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a040c476747176248a0b1e93eee62e2c
-      internalID: 628141691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_4
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1800
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f2253798057ec44ea5fd537e9cfe1e2
-      internalID: 1580523025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_5
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1800
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 537aba6e98276aa46a1b623d635c2097
-      internalID: -1890241584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_6
+      name: bg_sanscorridor 1_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1700
-        width: 100
-        height: 100
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e586c51d136263a418b188eda54e87b2
-      internalID: 883543896
+      spriteID: 1e33ea889f4e531499e303210ef0c12c
+      internalID: 2135808153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_7
+      name: bg_sanscorridor 1_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1700
-        width: 100
-        height: 100
+        x: 20
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a89af77750d61443869cada1dad06d7
-      internalID: -1965962910
+      spriteID: 6d82efb03fce48649a31118afaf449de
+      internalID: 1007602767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_8
+      name: bg_sanscorridor 1_5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1700
-        width: 100
-        height: 100
+        x: 40
+        y: 360
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,83 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cdc3ba23716054479af6e4bb1af31c9
-      internalID: -594919949
+      spriteID: 61da5d28b3149d4419c0e22e1f2a753a
+      internalID: 275840449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1600
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9493a3b6c7c594e41b5680598f8ff78c
-      internalID: -286518708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_10
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1600
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a734a848c83ee44d8905ea5e055a225
-      internalID: -1202971889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_11
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1600
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15cf567842f0c6f468a05d8cc96200b2
-      internalID: 1604722971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_12
+      name: bg_sanscorridor 1_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
-        width: 100
-        height: 100
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6394204a0ff529447840cb36e631338d
-      internalID: 51378515
+      spriteID: 2f2cf0f485203fc4c8d108560e62935a
+      internalID: -1523939378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_13
+      name: bg_sanscorridor 1_7
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1500
-        width: 100
-        height: 100
+        x: 20
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2431da13424d9d47886bc9de6fbe450
-      internalID: 1512597551
+      spriteID: a940c84b52ba8db48b868ef183764893
+      internalID: 523986607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_14
+      name: bg_sanscorridor 1_8
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1500
-        width: 100
-        height: 100
+        x: 40
+        y: 340
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,83 +295,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5466f6a7ee49f4458691d0bc14f33fb
-      internalID: -901049506
+      spriteID: 9d6d09a593b339e42b7b1f8ed101ff2f
+      internalID: 487331643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1400
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 999bb4655ad7a6a40b1ae92305952a34
-      internalID: -69137216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_16
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1400
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a98df76f26a77bf4a82d34978c25e5c3
-      internalID: 2117485050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_17
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1400
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56f33d3197d2b9240ab425812af242da
-      internalID: 1792409818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_18
+      name: bg_sanscorridor 1_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 1300
-        width: 100
-        height: 100
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,20 +316,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99dfc42e7b0d05b459b495cfdbcd1d6d
-      internalID: 490521454
+      spriteID: d844292998a4ffb429c49a4e11287c4f
+      internalID: -1536401253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_19
+      name: bg_sanscorridor 1_10
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1300
-        width: 100
-        height: 100
+        x: 20
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,20 +337,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea22e43e04ed7074f8a4211b6f78d4c0
-      internalID: 1257165483
+      spriteID: 1dc845fe83dcd1e46abeed55a951814f
+      internalID: 364190721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_20
+      name: bg_sanscorridor 1_11
       rect:
         serializedVersion: 2
-        x: 200
-        y: 1300
-        width: 100
-        height: 100
+        x: 40
+        y: 320
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,545 +358,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f522991826301c248bc5ae6afdf1e711
-      internalID: 535395294
+      spriteID: 06d5b446951de494ca9a133aaab7cfe0
+      internalID: 250790815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1200
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9210a5bfd1fddc4438d40c7cefad8887
-      internalID: 1330774801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_22
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1200
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57f67cb34cb61574f82f9cd084091f67
-      internalID: -451409554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_23
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1200
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78759ca38ad853c45bbac2f7d417ad46
-      internalID: -164320073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5904ea2131a3be43b7570406d48057a
-      internalID: 1690660756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_25
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22950af6b2318bc4a8194f29ffce08b9
-      internalID: -77819628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_26
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1100
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d83be4cedd65347469ee30bfb575d4cb
-      internalID: -136566895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1000
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 115b60e7ea56a4c45a9cfdefd61d60ad
-      internalID: -1823417689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_28
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1000
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 392a445fee6a42447911fd409fd41cca
-      internalID: 636972755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_29
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 1000
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6305a585dae9f6446aab24f087f5e80d
-      internalID: -981008539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_30
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 900
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a2dd113fd0df374bb1033bc24476a47
-      internalID: -772163764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_31
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 900
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb996a6ae225170419b5f27e52635dfb
-      internalID: 258109706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_32
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 900
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e24246a22c96124a8b2ea81314b97b5
-      internalID: -2022782874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_33
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 800
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4794e4c921c37f4b8f42cbec7c9e6ea
-      internalID: 628066227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_34
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 800
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e7ab6eef9afef645bc502cf3d8d2efd
-      internalID: 1413600164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_35
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 800
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2fd5784fcab8e244891c1bb07f525ff
-      internalID: 966684733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 700
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6254416e84367840944753ae9546bd4
-      internalID: -1831042078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_37
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 700
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb582c1dcea726b4393a89af58f76ee3
-      internalID: 111929554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_38
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 700
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbbc337603d45b648bb219eee1d3ad1c
-      internalID: 1667830970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_39
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 600
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57b43848939eeb44094ddeaaf43b41cf
-      internalID: -1087626857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_40
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 600
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ef100bcdf374bc45967e5362f2f463c
-      internalID: 2077034918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_41
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 500
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a63f23025b994f644bd22020bd7dc466
-      internalID: -1409750008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_42
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 500
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0069a4a1b320a054eb93bdea91a741da
-      internalID: 242084692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_43
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 400
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56a1760b086bdd540a624106fc597c89
-      internalID: 1669994086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_44
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 400
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fab131e07aa7bb141acc6374aaab09f1
-      internalID: -974402437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_45
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 400
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9509a450a3935324eb389cbbb9a0aecd
-      internalID: 1189054898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bg_sanscorridor_46
+      name: bg_sanscorridor 1_12
       rect:
         serializedVersion: 2
         x: 0
         y: 300
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1093,20 +379,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924d3f03a4d4ba14394d93ac990e3348
-      internalID: -1336728871
+      spriteID: 0522b1954608f8044a26635583540daf
+      internalID: -1296621704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_47
+      name: bg_sanscorridor 1_13
       rect:
         serializedVersion: 2
-        x: 100
+        x: 20
         y: 300
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1114,20 +400,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a3e6027ac07054e8f8d29903cb09bd
-      internalID: -579280988
+      spriteID: 678055135232f1246bc1e13198e38f25
+      internalID: 1636192540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_48
+      name: bg_sanscorridor 1_14
       rect:
         serializedVersion: 2
-        x: 200
+        x: 40
         y: 300
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1135,20 +421,272 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987e17099439afe4bbba33ffd65e90eb
-      internalID: -572034906
+      spriteID: fe2e8b650ba5d9f4ea5af683d50dfacd
+      internalID: 871229144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_49
+      name: bg_sanscorridor 1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f571d26ba6f71924ca73b4dba2907cba
+      internalID: -670553953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a931a03da9d8b9b429079b5e5d1187d4
+      internalID: 1061971239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 280
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89655252e4f7bb141aa9538a72b7cf9e
+      internalID: -161251852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71eba5ea6f20ee4cbdcedc19391894d
+      internalID: 354311443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad16cf9ca5eec0e4abdef0eb20cde300
+      internalID: 923653352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 260
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee2929c3dcc10445a2774a743f2a65b
+      internalID: 112946071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b168ec21cae09424ca4de7e0611981a8
+      internalID: 889109801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_22
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa6addd299177248bc19b3d60890e23
+      internalID: 288393790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 240
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec4a93c745028648be48e9b0142c19f
+      internalID: -1295488376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c06d8e59f7979a4791bc0760f30f732
+      internalID: 689303545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2301777ca7d034449bdfee744d8dd43
+      internalID: -1641423702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 220
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0b4a3462764b4428fc1297ae579da4
+      internalID: -1907190381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_27
       rect:
         serializedVersion: 2
         x: 0
         y: 200
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1156,20 +694,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4074a0483cc8e984f934c535adab882a
-      internalID: -1010577826
+      spriteID: e461ebd903bf15347b301e31f8d248b5
+      internalID: -1013121942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_50
+      name: bg_sanscorridor 1_28
       rect:
         serializedVersion: 2
-        x: 100
+        x: 20
         y: 200
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1177,20 +715,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a55636cba3dda4893a67f9b8d664e7
-      internalID: -1557053717
+      spriteID: 0628a240f23e8bf419602bbc4da7b548
+      internalID: 1981375678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_51
+      name: bg_sanscorridor 1_29
       rect:
         serializedVersion: 2
-        x: 200
+        x: 40
         y: 200
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1198,20 +736,251 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0063dd774c789054fb802ac848306d2c
-      internalID: 597451723
+      spriteID: 0bf6cd9f6f275ab4db3cad64f9c2e633
+      internalID: -789961400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_52
+      name: bg_sanscorridor 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4e4a134a5434948a53805675ea8fc6
+      internalID: 1836977946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d13e238aef6c04690a4f5a9a48487c
+      internalID: 1530923902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53c6c058bc739341be0b09ea29f4a27
+      internalID: 432304605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7c30e131abf4428bf441cd9a67fdd
+      internalID: 781284344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feaae4892980fe478b03540acbf41db
+      internalID: -897424776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 160
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b83b627ddd66804bbf349c2e834cd4b
+      internalID: -743582140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17affd8612addd7469a0a1cd4138e416
+      internalID: 1243062438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957ff8aecccb55e4e80727b9714a77f0
+      internalID: -937475224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf554cb2f3c9c894a81e7e642eacc611
+      internalID: 1647260891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd144bd95d9c6754495a72cdd341e9b8
+      internalID: 1368111093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 120
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e56a80af784c7f4db8397dfb7501507
+      internalID: -281899859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_41
       rect:
         serializedVersion: 2
         x: 0
         y: 100
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1219,20 +988,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07bcddb7f84508941b41e44a897813a2
-      internalID: 1158437762
+      spriteID: dd5a8e8c83c695c47b68b48a21afc97f
+      internalID: 1202288480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_53
+      name: bg_sanscorridor 1_42
       rect:
         serializedVersion: 2
-        x: 100
+        x: 40
         y: 100
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1240,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d795b12a4cf7f478d9ed2fdd41f705
-      internalID: 296714285
+      spriteID: a0a5818e3bf28d648b2697bab14bb77b
+      internalID: -817773030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_54
+      name: bg_sanscorridor 1_43
       rect:
         serializedVersion: 2
-        x: 200
-        y: 100
-        width: 100
-        height: 100
+        x: 0
+        y: 80
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1261,20 +1030,251 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2071dc438f651ae46b4cb3adc7c8c05c
-      internalID: 671566368
+      spriteID: 3926c4a6d89013746914a6ea254c2574
+      internalID: -2003273210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_55
+      name: bg_sanscorridor 1_44
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89df3245793f8654694414918105e68b
+      internalID: 869724265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31763f896614a542bbf2386554226f4
+      internalID: -359260126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9003af8a3e28967438dfdfad7299c720
+      internalID: 527671902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_47
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df7a5ea237e2bd4589b8cc735cd4449
+      internalID: 521046380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190b2ba191984814da03bb0dd04c0470
+      internalID: 933722632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a942d598519d03f4d81ead1d3d27cc48
+      internalID: -973267251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b32d24af261b54680dd43281c4651c
+      internalID: -162513494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75d17554830d534dacebc82a87238c8
+      internalID: 413226254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083efa87a4540d84aa997f6ed658d0f3
+      internalID: 1671903909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_53
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc820cf9a4cc7d4f81f79a6abfa910a
+      internalID: -396272864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbce172e57e61f4286eb1abd2feaf90
+      internalID: -1739251997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_sanscorridor 1_55
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1282,20 +1282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd0187daaaad8f744b8ed3a6c8362a8f
-      internalID: -1786954562
+      spriteID: 10252ccd70f393b4f9a7077ae3d5eb9c
+      internalID: -1442689465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_56
+      name: bg_sanscorridor 1_56
       rect:
         serializedVersion: 2
-        x: 100
+        x: 20
         y: 0
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,20 +1303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 254141f96b7b1184c8052639bb0e9338
-      internalID: 523171163
+      spriteID: 7fd9e21c7a7928a4ca50ab027dc5e2b6
+      internalID: 709852167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_sanscorridor_57
+      name: bg_sanscorridor 1_57
       rect:
         serializedVersion: 2
-        x: 200
+        x: 40
         y: 0
-        width: 100
-        height: 100
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1324,8 +1324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1089600b1ca146646952d66ac3351449
-      internalID: 403137790
+      spriteID: 340d021e43fb9cd4dacbae9cc382b70c
+      internalID: 269061614
       vertices: []
       indices: 
       edges: []
@@ -1341,64 +1341,64 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bg_sanscorridor_0: -1197418059
-      bg_sanscorridor_1: 1716004731
-      bg_sanscorridor_10: -1202971889
-      bg_sanscorridor_11: 1604722971
-      bg_sanscorridor_12: 51378515
-      bg_sanscorridor_13: 1512597551
-      bg_sanscorridor_14: -901049506
-      bg_sanscorridor_15: -69137216
-      bg_sanscorridor_16: 2117485050
-      bg_sanscorridor_17: 1792409818
-      bg_sanscorridor_18: 490521454
-      bg_sanscorridor_19: 1257165483
-      bg_sanscorridor_2: 706673254
-      bg_sanscorridor_20: 535395294
-      bg_sanscorridor_21: 1330774801
-      bg_sanscorridor_22: -451409554
-      bg_sanscorridor_23: -164320073
-      bg_sanscorridor_24: 1690660756
-      bg_sanscorridor_25: -77819628
-      bg_sanscorridor_26: -136566895
-      bg_sanscorridor_27: -1823417689
-      bg_sanscorridor_28: 636972755
-      bg_sanscorridor_29: -981008539
-      bg_sanscorridor_3: 628141691
-      bg_sanscorridor_30: -772163764
-      bg_sanscorridor_31: 258109706
-      bg_sanscorridor_32: -2022782874
-      bg_sanscorridor_33: 628066227
-      bg_sanscorridor_34: 1413600164
-      bg_sanscorridor_35: 966684733
-      bg_sanscorridor_36: -1831042078
-      bg_sanscorridor_37: 111929554
-      bg_sanscorridor_38: 1667830970
-      bg_sanscorridor_39: -1087626857
-      bg_sanscorridor_4: 1580523025
-      bg_sanscorridor_40: 2077034918
-      bg_sanscorridor_41: -1409750008
-      bg_sanscorridor_42: 242084692
-      bg_sanscorridor_43: 1669994086
-      bg_sanscorridor_44: -974402437
-      bg_sanscorridor_45: 1189054898
-      bg_sanscorridor_46: -1336728871
-      bg_sanscorridor_47: -579280988
-      bg_sanscorridor_48: -572034906
-      bg_sanscorridor_49: -1010577826
-      bg_sanscorridor_5: -1890241584
-      bg_sanscorridor_50: -1557053717
-      bg_sanscorridor_51: 597451723
-      bg_sanscorridor_52: 1158437762
-      bg_sanscorridor_53: 296714285
-      bg_sanscorridor_54: 671566368
-      bg_sanscorridor_55: -1786954562
-      bg_sanscorridor_56: 523171163
-      bg_sanscorridor_57: 403137790
-      bg_sanscorridor_6: 883543896
-      bg_sanscorridor_7: -1965962910
-      bg_sanscorridor_8: -594919949
-      bg_sanscorridor_9: -286518708
+      bg_sanscorridor 1_0: 1401796079
+      bg_sanscorridor 1_1: 2108656875
+      bg_sanscorridor 1_10: 364190721
+      bg_sanscorridor 1_11: 250790815
+      bg_sanscorridor 1_12: -1296621704
+      bg_sanscorridor 1_13: 1636192540
+      bg_sanscorridor 1_14: 871229144
+      bg_sanscorridor 1_15: -670553953
+      bg_sanscorridor 1_16: 1061971239
+      bg_sanscorridor 1_17: -161251852
+      bg_sanscorridor 1_18: 354311443
+      bg_sanscorridor 1_19: 923653352
+      bg_sanscorridor 1_2: 120566985
+      bg_sanscorridor 1_20: 112946071
+      bg_sanscorridor 1_21: 889109801
+      bg_sanscorridor 1_22: 288393790
+      bg_sanscorridor 1_23: -1295488376
+      bg_sanscorridor 1_24: 689303545
+      bg_sanscorridor 1_25: -1641423702
+      bg_sanscorridor 1_26: -1907190381
+      bg_sanscorridor 1_27: -1013121942
+      bg_sanscorridor 1_28: 1981375678
+      bg_sanscorridor 1_29: -789961400
+      bg_sanscorridor 1_3: 2135808153
+      bg_sanscorridor 1_30: 1836977946
+      bg_sanscorridor 1_31: 1530923902
+      bg_sanscorridor 1_32: 432304605
+      bg_sanscorridor 1_33: 781284344
+      bg_sanscorridor 1_34: -897424776
+      bg_sanscorridor 1_35: -743582140
+      bg_sanscorridor 1_36: 1243062438
+      bg_sanscorridor 1_37: -937475224
+      bg_sanscorridor 1_38: 1647260891
+      bg_sanscorridor 1_39: 1368111093
+      bg_sanscorridor 1_4: 1007602767
+      bg_sanscorridor 1_40: -281899859
+      bg_sanscorridor 1_41: 1202288480
+      bg_sanscorridor 1_42: -817773030
+      bg_sanscorridor 1_43: -2003273210
+      bg_sanscorridor 1_44: 869724265
+      bg_sanscorridor 1_45: -359260126
+      bg_sanscorridor 1_46: 527671902
+      bg_sanscorridor 1_47: 521046380
+      bg_sanscorridor 1_48: 933722632
+      bg_sanscorridor 1_49: -973267251
+      bg_sanscorridor 1_5: 275840449
+      bg_sanscorridor 1_50: -162513494
+      bg_sanscorridor 1_51: 413226254
+      bg_sanscorridor 1_52: 1671903909
+      bg_sanscorridor 1_53: -396272864
+      bg_sanscorridor 1_54: -1739251997
+      bg_sanscorridor 1_55: -1442689465
+      bg_sanscorridor 1_56: 709852167
+      bg_sanscorridor 1_57: 269061614
+      bg_sanscorridor 1_6: -1523939378
+      bg_sanscorridor 1_7: 523986607
+      bg_sanscorridor 1_8: 487331643
+      bg_sanscorridor 1_9: -1536401253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

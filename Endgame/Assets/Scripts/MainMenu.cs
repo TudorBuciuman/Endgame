@@ -19,7 +19,7 @@ public class MainMenu : SelectableUIComponent
 
     private GameObject itemOptions;
 
-    private GameObject partyMemberSel;
+    private GameObject HealthStats;
 
     private bool usingTextBox;
 
@@ -90,51 +90,11 @@ public class MainMenu : SelectableUIComponent
             if (isAlone)
             {
                 idleFrames++;
-                //if (idleFrames == 30 && !panels && (gm.SusieInParty() || gm.NoelleInParty()))
-                //{
-                //    CreatePartyPanels();
-                //}
             }
-            /*
-            if (!axisDown && UTInput.GetAxis("Horizontal") != 0f && (bool)GameObject.Find("Stats") && (gm.SusieInParty() || gm.NoelleInParty() || gm.GetMiniPartyMember() > 0) && statMenuOpen)
-            {
-                int num = ((gm.SusieInParty() && gm.NoelleInParty()) ? 3 : 2);
-                if (gm.GetMiniPartyMember() > 0)
-                {
-                    num++;
-                }
-                if (num == 2)
-                {
-                    if (partyMemberIndex != 0)
-                    {
-                        partyMemberIndex = 0;
-                    }
-                    else
-                    {
-                        partyMemberIndex = (gm.SusieInParty() ? 1 : 2);
-                    }
-                }
-                else
-                {
-                    partyMemberIndex += (int)UTInput.GetAxis("Horizontal");
-                    if (partyMemberIndex < 0)
-                    {
-                        partyMemberIndex = num - 1;
-                    }
-                    else if (partyMemberIndex >= num)
-                    {
-                        partyMemberIndex = 0;
-                    }
-                }
-                Object.Destroy(newLayer);
-                CreateStatsMenu(partyMemberIndex);
-                aud.Play();
-                axisDown = true;
-            }
-            */
+           
             if ((statMenuOpen || itemsMenuOpen || ActsMenuOpen) && !gm.MenuDis())
             {
-                if (Input.GetKeyDown(KeyCode.X) ) //need another variable to not close
+                if (Input.GetKeyDown(KeyCode.X)) 
                 {
                     if (statMenuOpen)
                     {
@@ -163,42 +123,6 @@ public class MainMenu : SelectableUIComponent
                 gm.canMove = true;
                 gm.canInteract = true;
                 Destroy(this.gameObject);
-            }
-            else if (Input.GetKeyDown(KeyCode.X) && !isAlone)
-            {
-                if (partyMemberSel != null)
-                {
-                    Destroy(partyMemberSel);
-                    itemOptions.GetComponent<Selection>().Enable();
-                }
-                else if (newLayer.GetComponent<Selection>() != null)
-                {
-                    if (!newLayer.GetComponent<Selection>().IsEnabled())
-                    {
-                        Debug.Log("yes");
-                        newLayer.GetComponent<Selection>().Enable();
-                        itemOptions.GetComponent<Selection>().Disable();
-                        itemOptions.GetComponent<Selection>().ResetChoice();
-                    }
-                    else
-                    {
-                        if (itemOptions != null)
-                        {
-                            Object.Destroy(itemOptions);
-                        }
-                        Object.Destroy(newLayer);
-                        main.GetComponent<Selection>().Enable();
-                        isAlone = true;
-                    }
-                }
-                else
-                {
-                    statMenuOpen = false;
-                    Object.Destroy(newLayer);
-                    main.GetComponent<Selection>().Enable();
-                    isAlone = true;
-                }
-                aud.Play();
             }
             if (axisDown && UTInput.GetAxis("Horizontal") == 0f)
             {
@@ -264,7 +188,7 @@ public class MainMenu : SelectableUIComponent
                 List<string> list4 = new List<string>();
                 if (index[1] == 0f)
                 {
-                    string[] array2 = Items.ItemUse(gm.GetItem(itemIndex), 0, 0, serious: false).Split('}');
+                    string[] array2 = Items.ItemUse(gm.GetItem(itemIndex)).Split('}');
                     for (int i = 0; i < array2.Length; i++)
                     {
                         string[] array3 = array2[i].Split('`');
@@ -356,7 +280,7 @@ public class MainMenu : SelectableUIComponent
         {
             partyMemberIndex = (int)index[1];
         }
-        string[] array20 = Items.ItemUse(gm.GetItem(itemIndex), 0, partyMemberIndex, serious: false).Split('}');
+        string[] array20 = Items.ItemUse(gm.GetItem(itemIndex)).Split('}');
         for (int m = 0; m < array20.Length; m++)
         {
             string[] array21 = array20[m].Split('`');
@@ -415,45 +339,22 @@ public class MainMenu : SelectableUIComponent
         {
             num = 270;
         }
-        
-        //num = 0;
         pinfo.GetComponent<UIBackground>().CreateElement("pinfo", new Vector2(bnp ? (-212) : (-217), 133 - num), new Vector2(bnp ? 152 : 142, 110f));
         GameObject gameObject = Object.Instantiate(Resources.Load<GameObject>("ui/SelectionBase"), pinfo.transform.GetChild(0).transform);
         gameObject.transform.localPosition = new Vector2(-57f, -64f);
         gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
         gameObject.GetComponent<Text>().text = "Pawn";
         gameObject.transform.SetParent(pinfo.transform);
-        GameObject gameObject2 = Object.Instantiate(Resources.Load<GameObject>("ui/SelectionBase"), pinfo.transform.GetChild(0).transform);
-        gameObject2.transform.localPosition = new Vector2(-57f, -103f);
-        gameObject2.transform.localScale = new Vector3(1f, 1f, 1f);
-        gameObject2.GetComponent<Text>().font = Util.PackManager().GetFont(Resources.Load<Font>("fonts/hud"), "hud");
-        gameObject2.GetComponent<Text>().fontSize = 16;
-        gameObject2.GetComponent<Text>().lineSpacing = 3f;
-        //gameObject2.GetComponent<Text>().text = "lv  " + gm.GetLV() + "\nhp  " + gm.GetHP(0) + "/" + gm.GetMaxHP(0) + "\ng   " + gm.GetGold();
-        gameObject2.GetComponent<Text>().text = "lv  " + gm.GetLV() + "\nhp  " + 20 + "/" + 20 + "\ng   " + 10;
-        gameObject2.transform.SetParent(pinfo.transform);
-        /*
-        if (bnp)
-        {
-            HDMenuSlide hDMenuSlide = Object.FindObjectOfType<HDMenuSlide>();
-            currentPosition = (hDMenuSlide ? hDMenuSlide.transform.localPosition.x : (-640f));
-            GameObject[] menuObjectArray = GetMenuObjectArray();
-            foreach (GameObject gameObject3 in menuObjectArray)
-            {
-                if ((bool)gameObject3)
-                {
-                    gameObject3.transform.localPosition = new Vector3(currentPosition, gameObject3.transform.localPosition.y);
-                }
-            }
-            if ((bool)hDMenuSlide)
-            {
-                Object.Destroy(hDMenuSlide.gameObject);
-            }
-        }
-        */
+        HealthStats = Object.Instantiate(Resources.Load<GameObject>("ui/SelectionBase"), pinfo.transform.GetChild(0).transform);
+        HealthStats.transform.localPosition = new Vector2(-57f, -103f);
+        HealthStats.transform.localScale = new Vector3(1f, 1f, 1f);
+        HealthStats.GetComponent<Text>().font = Util.PackManager().GetFont(Resources.Load<Font>("fonts/hud"), "hud");
+        HealthStats.GetComponent<Text>().fontSize = 16;
+        HealthStats.GetComponent<Text>().lineSpacing = 3f;
+        HealthStats.GetComponent<Text>().text = "lv  " + gm.GetLV() + "\nhp  " + gm.GetHP() + "/" + gm.GetMaxHP() + "\ng   " + gm.GetGold();
+        HealthStats.transform.SetParent(pinfo.transform);
         aud.clip = Resources.Load<AudioClip>("sounds/snd_menumove");
         aud.Play();
-        //gm.DisablePlayerMovement(deactivatePartyMembers: false);
         isAlone = true;
     }
     public void CreateItemsMenu()
@@ -527,36 +428,25 @@ public class MainMenu : SelectableUIComponent
         gameObject3.transform.localScale = new Vector3(1f, 1f, 1f);
 
         string text = "Pawn";
-        string text2 = 20.ToString();
-        string text3 = 20.ToString();
-        //string text2 = gm.GetHP(partyMember).ToString();
-        //string text3 = gm.GetMaxHP(partyMember).ToString();
-        /*
-        if (partyMember == 0 && gm.GetMiniPartyMember() > 0)
-        {
-            int num3 = gm.GetHP(0) - gm.GetMiniMemberMaxHP();
-            if (num3 < 0)
-            {
-                num3 = 0;
-            }
-            text2 = num3.ToString();
-            text3 = (gm.GetMaxHP(0) - gm.GetMiniMemberMaxHP()).ToString();
-        }
-        */
+        string text2 = gm.GetHP().ToString();
+        string text3 = gm.GetMaxHP().ToString();
         string text4 = "";
         string text5 = gm.GetATKRaw().ToString();
         string text6 = gm.GetDEFRaw().ToString();
         string text8 = (gm.GetATK() - gm.GetATKRaw()).ToString();
         string text9 = (gm.GetDEF() - gm.GetDEFRaw()).ToString();
 
-        //gameObject.GetComponent<Text>().text = "\"" + text + "\"\n" + text4 + "\nLV  " + gm.GetLV() + "\nHP  " + text2 + " / " + text3 + "\n\nAT  " + text5 + " (" + text8 + ")\nDF  " + text6 + " (" + text9 + ")\nMG  " + text7 + " (" + "idk" + ")";
-        gameObject.GetComponent<Text>().text = "\"" + text + "\"\n" + text4 + "\nLV  " + 1 + "\nHP  " + text2 + " / " + text3 + "\n\nAT  " + text5 + " (" + text8 + ")\nDF  " + text6 + " (" + text9 + ")";
+        gameObject.GetComponent<Text>().text = "\"" + text + "\"\n" + text4 + "\nLV  " + gm.GetLV() + "\nHP  " + text2 + " / " + text3 + "\n\nAT  " + text5 + " (" + text8 + ")\nDF  " + text6 + " (" + text9 + ")";
         gameObject.GetComponent<Text>().lineSpacing = 1f;
-        //gameObject2.GetComponent<Text>().text = "\n\n\n\n\nEXP: " + gm.GetEXP() + "\nNEXT: " + (gm.GetLVExp() - gm.GetEXP());
-        gameObject2.GetComponent<Text>().text = "\n\n\n\n\nEXP: " + "1" + "\nNEXT: " + "20";
+        gameObject2.GetComponent<Text>().text = "\n\n\n\n\nEXP: " + gm.GetEXP() + "\nNEXT: " + (gm.GetLVExp() - gm.GetEXP()).ToString();
         gameObject2.GetComponent<Text>().lineSpacing = 1f;
-        //gameObject3.GetComponent<Text>().text = "WEAPON: " + "sword" + "\nARMOR: " + "helmet" + "\nGOLD: " + gm.GetGold();
-        gameObject3.GetComponent<Text>().text = "WEAPON: " + Items.ItemName(gm.GetWeapon()) + "\nARMOR: " + Items.ItemName(gm.GetArmor()) + "\nGOLD: " + "20";
+        string weapon = Items.ItemName(gm.GetWeapon());
+        string armor = Items.ItemName(gm.GetArmor());
+        if (weapon.Length > 13)
+            weapon = Items.ShortItemName(gm.GetWeapon());
+        if (armor.Length > 13)
+            armor = Items.ShortItemName(gm.GetArmor());
+        gameObject3.GetComponent<Text>().text = "WEAPON: " + weapon + "\nARMOR: " + armor + "\nGOLD: " + gm.GetGold().ToString();
         gameObject3.GetComponent<Text>().lineSpacing = 1f;
     }
     public void CreateActsMenu()
@@ -581,13 +471,44 @@ public class MainMenu : SelectableUIComponent
         gameObject2.GetComponent<RectTransform>().sizeDelta = new Vector2(300f, 406f);
         gameObject2.GetComponent<Text>().font = Util.PackManager().GetFont(Resources.Load<Font>("fonts/hud"), "hud");
         gameObject2.GetComponent<Text>().fontSize = 16;
-        string text = "FIGHTING";
-        string text2 = "Light beamed into \nthe world,";
-        string text3 = "but men and women";
-        string text4 = "ran towards the darkness.";
-                gameObject.GetComponent<Text>().text = "\n"+text  +"\n"  + "\n" +"\n"+ text2 + "\n"+ text3 + "\n" + text4 ;
+        string text, text2, text3, text4;
+        if (gm.GetAct() == 1)
+        {
+            gameObject2.GetComponent<Text>().text = "Act 1";
+
+            text = "FIGHTING";
+            text2 = "Light beamed into \nthe world,";
+            text3 = "but men and women";
+            text4 = "ran towards the darkness.";
+            gameObject.GetComponent<Text>().text = "\n" + text + "\n" + "\n" + "\n" + text2 + "\n" + text3 + "\n" + text4;
+
+        }
+        else if(gm.GetAct()==2)
+        {
+            gameObject2.GetComponent<Text>().text = "Act 2";
+
+            text = "RISING";
+            text2 = "Pride always preludes \nthe crash";
+            text3 = "...the bigger the ego";
+            text4 = "the harder the fall!";
+            gameObject.GetComponent<Text>().text = "\n" + text + "\n" + "\n" + "\n" + text2 + "\n" + text3 + "\n" + text4;
+
+        }
+        else {
+            gameObject2.GetComponent<Text>().text = "Act 3";
+
+            text = "FALLING";
+            text2 = "Mere mortals \ncannot ruin \ntheir own lives.";
+            text3 = "Who will give me wings,";
+            text4 = "I ask,\n\"wings like a dove\"";
+            gameObject.GetComponent<Text>().text = "\n" + text + "\n" + "\n" + text2 + "\n" + text3 + "\n" + text4;
+
+        }
         gameObject.GetComponent<Text>().lineSpacing = 1f;
-        gameObject2.GetComponent<Text>().text = "Act 1";
+    }
+    public void RewriteHealth()
+    {
+        HealthStats.GetComponent<Text>().text = "lv  " + gm.GetLV() + "\nhp  " + gm.GetHP() + "/" + gm.GetMaxHP() + "\ng   " + 10;
     }
     public override void CancelControlReturn()
     {
@@ -596,12 +517,11 @@ public class MainMenu : SelectableUIComponent
 
     private GameObject[] GetMenuObjectArray()
     {
-        return new GameObject[5]
+        return new GameObject[4]
         {
             main ? main : null,
             pinfo ? pinfo : null,
             newLayer ? newLayer : null,
-            partyMemberSel ? partyMemberSel : null,
             panels ? panels.gameObject : null
         };
     }
@@ -671,10 +591,6 @@ public class MainMenu : SelectableUIComponent
     {
         usingTextBox = true;
         Object.Destroy(newLayer);
-        if ((bool)partyMemberSel)
-        {
-            Object.Destroy(partyMemberSel);
-        }
         return base.gameObject.AddComponent<TextBox>();
     }
     

@@ -36,7 +36,7 @@ public class Fade : MonoBehaviour
                 isFading = false;
                 return;
             }
-            float num = frames / maxFrames;
+            float num = (float)(frames / maxFrames);
             if (!fadingOut)
             {
                 num = 1f - num;

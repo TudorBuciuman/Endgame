@@ -7,83 +7,131 @@
       "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|c:\\users\\tudor\\onedrive\\imagini\\documente\\github\\endgame\\endgame\\assets\\scripts\\quitfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quitfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\deathscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\textut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\savemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\interacttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interacttextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\savefileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savefileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\loadzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\overworldmanipulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overworldmanipulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\actionpartypannels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\actionpartypannels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\interactiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\shaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\actionsoul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\actionsoul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\kingatcastle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kingatcastle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\loadzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\bladeknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bladeknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\interactselectionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactselectionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\knightdetectioncutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knightdetectioncutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\cutscenebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\cutscenestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\soul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\knightswing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knightswing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\attackspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\attackspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\fighttarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fighttarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\particleduplicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\particleduplicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\damagenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\bladefigurebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bladefigurebullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\savefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\savefile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\assets\\scripts\\starsflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EBF57F-7F27-8DA1-7DFF-75D0B7A90DF8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\starsflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,247 +141,398 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuitFunction.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\QuitFunction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\QuitFunction.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\QuitFunction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\QuitFunction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T07:00:12.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Fade.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fade.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Fade.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fade.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Fade.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T14:18:30.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OverworldPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
-              "RelativeDocumentMoniker": "..\\..\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
-              "RelativeToolTip": "..\\..\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
-              "ViewState": "AgIAAN4CAAAAAAAAAAAuwN8CAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T18:57:47.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoadZone.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\LoadZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadZone.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\LoadZone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LoadZone.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAQwA4AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T18:55:56.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TextUT.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\TextUT.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TextUT.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\TextUT.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TextUT.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAwwAMBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T19:14:13.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameUI.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\GameUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameUI.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\GameUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T15:43:27.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Shaker.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Shaker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Shaker.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Shaker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Shaker.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T05:36:11.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Fighting.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fighting.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Fighting.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fighting.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Fighting.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAAJgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T12:21:20.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Items.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Items.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Items.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAqwIQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:50:42.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAQwJoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T19:02:41.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ActionPartyPannels.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\ActionPartyPannels.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ActionPartyPannels.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\ActionPartyPannels.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ActionPartyPannels.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwDIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:42:00.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Selection.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Selection.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Selection.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Selection.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Selection.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAAIsAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T18:44:03.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Interactable.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Interactable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Interactable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactable.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T12:29:56.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InteractTextBox.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\InteractTextBox.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractTextBox.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\InteractTextBox.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractTextBox.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAQwKMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T11:48:17.723Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "InteractionTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\InteractionTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionTrigger.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\InteractionTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractionTrigger.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T11:22:28.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "TextBox.cs",
               "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\TextBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TextBox.cs",
               "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\TextBox.cs",
               "RelativeToolTip": "Assets\\Scripts\\TextBox.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAANEBAAAAAAAAAAAwwOEBAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T11:19:26.435Z"
+              "WhenOpened": "2025-10-31T19:19:48.923Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Intro.cs",
-              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Intro.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Intro.cs",
-              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Intro.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Intro.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwDoAAAArAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
+              "ViewState": "AgIAAF8DAAAAAAAAAAAAALADAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T16:04:22.092Z"
+              "WhenOpened": "2025-10-09T14:08:07.554Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Fighting.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fighting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fighting.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fighting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fighting.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAABgwNUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T19:24:34.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OverworldPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
+              "RelativeDocumentMoniker": "..\\..\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
+              "RelativeToolTip": "..\\..\\idk\\deltatraveler-src\\Assets\\Scripts\\Assembly-CSharp\\OverworldPlayer.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAAAMECAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T18:49:19.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "OverworldManipulator.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\OverworldManipulator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OverworldManipulator.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\OverworldManipulator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OverworldManipulator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T14:07:59.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SAVEMenu.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SAVEMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SAVEMenu.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SAVEMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SAVEMenu.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwNgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T06:32:45.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SAVEPoint.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SAVEPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SAVEPoint.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SAVEPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SAVEPoint.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAWwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T06:29:23.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Fade.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fade.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fade.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Fade.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fade.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAnwD8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T17:31:59.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KingAtCastle.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\KingAtCastle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KingAtCastle.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\KingAtCastle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KingAtCastle.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T18:33:01.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoadZone.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\LoadZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadZone.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\LoadZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadZone.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T17:12:36.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Settings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Settings.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\Settings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T18:20:13.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KnightSwing.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\KnightSwing.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KnightSwing.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\KnightSwing.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KnightSwing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T09:54:55.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CutsceneBase.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\CutsceneBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneBase.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\CutsceneBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutsceneBase.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAvwFkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T09:08:27.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BladeKnight.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\BladeKnight.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BladeKnight.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\BladeKnight.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BladeKnight.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T17:03:18.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CutsceneStart.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\CutsceneStart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneStart.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\CutsceneStart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutsceneStart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T09:07:58.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ParticleDuplicator.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\ParticleDuplicator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ParticleDuplicator.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\ParticleDuplicator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ParticleDuplicator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:44:03.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SAVEFILEIO.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SAVEFILEIO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SAVEFILEIO.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SAVEFILEIO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SAVEFILEIO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:06:15.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeathScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\DeathScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeathScreen.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\DeathScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeathScreen.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:44:28.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DamageNumber.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\DamageNumber.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DamageNumber.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\DamageNumber.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DamageNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:42:32.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ActionSOUL.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\ActionSOUL.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ActionSOUL.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\ActionSOUL.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ActionSOUL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:02:53.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InteractSelectionBase.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\InteractSelectionBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractSelectionBase.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\InteractSelectionBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractSelectionBase.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAewGQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:41:10.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FightTarget.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\FightTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FightTarget.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\FightTarget.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FightTarget.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAA9wAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T15:05:08.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BladeFigureBullet.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\BladeFigureBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BladeFigureBullet.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\BladeFigureBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BladeFigureBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T14:49:09.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AttackSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\AttackSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AttackSpawner.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\AttackSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AttackSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T14:16:42.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SOUL.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SOUL.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SOUL.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SOUL.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SOUL.cs",
+              "ViewState": "AgIAAAcDAAAAAAAAAAAkwBgDAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T14:11:07.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KnightDetectionCutscene.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\KnightDetectionCutscene.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KnightDetectionCutscene.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\KnightDetectionCutscene.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KnightDetectionCutscene.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:28:47.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EnemyBase.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\EnemyBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBase.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\EnemyBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBase.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T15:45:10.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StarsFlicker.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\StarsFlicker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StarsFlicker.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\StarsFlicker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StarsFlicker.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:28:08.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameUI.cs",
+              "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\GameUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameUI.cs",
+              "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\GameUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameUI.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAIA8wIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T15:43:27.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwGYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAQwJMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T10:16:02.28Z"
+              "WhenOpened": "2025-08-05T10:16:02.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEMAAADGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T10:08:09.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "SaveFile.cs",
               "DocumentMoniker": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SaveFile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveFile.cs",
               "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\SaveFile.cs",
               "RelativeToolTip": "Assets\\Scripts\\SaveFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T09:34:32.158Z"
             },
@@ -345,7 +544,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\tudor\\OneDrive\\Imagini\\Documente\\GitHub\\Endgame\\endgame\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAiwI0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABABAAAAAAAAAAAwwCoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-05T09:32:10.751Z",
               "EditorCaption": ""

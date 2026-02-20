@@ -1,6 +1,9 @@
+using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
@@ -23,9 +26,11 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rigid2D;
     
-    private float spd = 6;
+    private float spd = 3;
+    private float runspd = 4;
 
     private bool canMove;
+    private bool canRun=false;
 
     private bool movePM;
 
@@ -79,10 +84,6 @@ public class PlayerController : MonoBehaviour
 
     public bool noclip;
 
-    private bool isFrisk;
-
-    private bool canWallDance;
-
     private bool usingStepSounds;
 
     private string customFootStep = "";
@@ -93,12 +94,20 @@ public class PlayerController : MonoBehaviour
 
     protected bool isPlayer = true;
 
+    private int moveState;
+
+    private int movementFrame;
+    private bool activated;
+
+    private bool doLastMove;
+    public static PlayerController instance;
+
     private void Awake()
     {
         gm = FindFirstObjectByType<GameManager>();
         sr = base.transform.GetComponent<SpriteRenderer>();
         anim = base.transform.GetComponent<Animator>();
-        anim.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("kris_ow");
+        anim.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("pawn_ow");
         if (anim.runtimeAnimatorController == null)
             Application.Quit();
         col = base.transform.GetComponent<BoxCollider2D>();
@@ -108,80 +117,107 @@ public class PlayerController : MonoBehaviour
         rigid2D.bodyType = RigidbodyType2D.Dynamic;
         rigid2D.gravityScale = 0f;
         rigid2D.freezeRotation = true;
-        spd = 6f;
+        spd = 3f;
+        runspd = 4;
         canMove = true;
         initiating = false;
         iFrame = 0;
         iFrameMax = 0;
         moveFrames = 0;
+        movementFrame = 0;
         animControl = true;
         sr.enabled = true;
         SetCollision(onoff: true);
         aud = GetComponents<AudioSource>();
+
+        
+    }
+    private void Start()
+    {
+        /*
+        if (instance == null)
+        {
+            DontDestroyOnLoad(this);
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }*/
+        canRun = GameManager.test;
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (animControl)
+        if (!locked)
         {
-            anim.SetFloat("speed", 0.75f);
+            if (animControl)
+            {
+                anim.SetFloat("speed", 0.75f);
+            }
+            if (!canMove && animControl)
+            {
+                anim.SetBool("isMoving", value: false);
+            }
+            else if ((HoldingMoveButtons() || sliding) && gm.canMove)
+            {
+                rigid2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+                HandleRun();
+                if (movementFrame > 5000)
+                    movementFrame = 10;
+                movementFrame++;
+            }
+            else if (animControl)
+            {
+                anim.SetBool("isMoving", value: false);
+                rigid2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            }
+            if (!HoldingMoveButtons())
+            {
+                movementFrame = 0;
+            }
+            lastPos = transform.position;
         }
-        if (!canMove && animControl)
-        {
-            spd = 6f;
-            runTimer = 0;
-            anim.SetBool("isMoving", value: false);
-        }
-        else if ((HoldingMoveButtons() || sliding) && gm.canMove)
-        {
-            rigid2D.constraints = RigidbodyConstraints2D.FreezeRotation;
-            HandleRun();
-            spd = 6f;
-        }
-        else if (animControl)
-        {
-            spd = 6f;
-            anim.SetBool("isMoving", value: false);
-            rigid2D.constraints = RigidbodyConstraints2D.FreezeAll;
-        }
-        //sr.sortingOrder = Mathf.RoundToInt(base.transform.position.y * -5f);
         if (initiating)
         {
             canMove = false;
             iFrame++;
-            if (iFrame == 1 || iFrame == 5 || iFrame == 9)
+            if (iFrame == 1 || iFrame == 7 || iFrame == 13)
             {
                 gm.PlayGlobalSFX("sounds/snd_noise");
                 soul.GetComponent<SpriteRenderer>().enabled = true;
             }
-            if (iFrame == 3 || iFrame == 7)
+            if (iFrame == 5 || iFrame == 9)
             {
                 soul.GetComponent<SpriteRenderer>().enabled = false;
             }
-            if (iFrame == 11)
+            if (iFrame == 15)
             {
                 sr.enabled = false;
                 gm.PlayGlobalSFX("sounds/snd_battlestart");
             }
-            if (iFrame >= 11)
+            if (iFrame >= 15)
             {
-                soul.transform.position = Vector3.Lerp(oldSoulPos, soulPos, ((float)iFrame - 11f) / (float)moveFrames);
+                soul.transform.position = Vector3.Lerp(oldSoulPos, soulPos, ((float)iFrame - 15f) / (float)moveFrames);
             }
             if (iFrame > iFrameMax)
             {
                 SetCollision(onoff: false);
                 initiating = false;
                 iFrame = 0;
-                //gm.StartBattle(battleId);
+                gm.StartBattle(battleId);
             }
         }
-        lastPos = transform.position;
+    }
+    public Vector2 GetDirection()
+    {
+        return new Vector2(anim.GetFloat("dirX"), anim.GetFloat("dirY"));
     }
     private void HandleRun()
     {
-        moveDir = new Vector3(UTInput.GetAxis("Horizontal"), UTInput.GetAxis("Vertical"));
-
+        bool lastmoveTr = false;
+        moveDir = new Vector3(GameManager.GetAxisRaw("Horizontal"), GameManager.GetAxisRaw("Vertical"));
         if (moveDir != Vector3.zero)
         {
             movePM = true;
@@ -202,42 +238,73 @@ public class PlayerController : MonoBehaviour
             ChangeDirection(faceDir);
         }
         else
+        {
+            if (movementFrame > 1)
+            {
+                movementFrame = 1;
+                lastmoveTr = true;
+            }
+            else
+            {
+                movementFrame = 0;
+                lastmoveTr = false;
+            }
             movePM = false;
-
-            rigid2D.MovePosition(base.transform.position + moveDir * spd * spdMultiplier / 48f + posEffect);
-
-        
+        }
         if (animControl)
         {
-            anim.SetBool("isMoving", ProperlyMovedLastFrame());
+            anim.SetBool("isMoving", (ProperlyMovedLastFrame()) || lastmoveTr);
             if (ProperlyMoved())
             {
                 anim.Play("walk");
+                if (!canRun || !Input.GetKey(KeyCode.X))
+                {
+                    anim.SetFloat("speed", 0.75f);
+                    if (movementFrame > 2)
+                    {
+                        rigid2D.MovePosition(transform.position + moveDir * spd * spdMultiplier * Time.deltaTime);
+                    }
+                }
+                else
+                {
+                    anim.SetFloat("speed", 0.85f);
+                    if (movementFrame > 2)
+                    {
+                        rigid2D.MovePosition(transform.position + moveDir * runspd * spdMultiplier * Time.deltaTime);
+                    }
+                }
             }
+            else
+                movementFrame = 0;
         }
     }
     public bool ProperlyMovedLastFrame()
     {
-        if (!(Mathf.Round(Mathf.Abs(base.transform.position.x - lastPos.x) * 48f) > 1f))
+
+        if (!((Mathf.Abs(base.transform.position.x - lastPos.x) * 101) > 1f))
         {
-            return Mathf.Round(Mathf.Abs(base.transform.position.y - lastPos.y) * 48f) > 1f;
+            return (Mathf.Abs(base.transform.position.y - lastPos.y) * 101) > 1f;
         }
         return true;
     }
 
     public bool ProperlyMoved()
     {
-        if (!(Mathf.Round(Mathf.Abs(base.transform.position.x - moveLastPos.x) * 48f) > 1f))
+        // Debug.Log((base.transform.position.x - moveLastPos.x)+" "+ Mathf.Abs(base.transform.position.y - moveLastPos.y));
+        //Debug.Log((base.transform.position.x-lastPos.x)+" "+ Mathf.Abs(base.transform.position.x - moveLastPos.x));
+        //Debug.Log("fuck " + Mathf.Abs(base.transform.position.y - lastPos.y) * 500);
+        return true;
+        if (!((Mathf.Abs(base.transform.position.x - lastPos.x)*500) > 1f))
         {
-            return Mathf.Round(Mathf.Abs(base.transform.position.y - moveLastPos.y) * 48f) > 1f;
+            return (Mathf.Abs(base.transform.position.y - lastPos.y)*500) > 1f;
         }
         return true;
     }
     private bool HoldingMoveButtons()
     {
-        if (Input.GetAxis("Horizontal") == 0f)
+        if (GameManager.GetAxisRaw("Horizontal") == 0f)
         {
-            return Input.GetAxis("Vertical") != 0f;
+           return GameManager.GetAxisRaw("Vertical") != 0f;
         }
         return true;
     }
@@ -265,7 +332,109 @@ public class PlayerController : MonoBehaviour
     {
         return anim.GetBool("isMoving");
     }
+    public void InitiateBattle(Vector2 toSoulPos, int frames)
+    {
+        if (!gm.GetPlayingMusic().Contains("core"))
+        {
+            gm.PauseMusic();
+        }
+        gm.DisablePlayerMovement(deactivatePartyMembers: false);
+        GetComponentInChildren<InteractionTrigger>().GetComponent<BoxCollider2D>().enabled = false;
+        SpriteRenderer[] componentsInChildren = GameObject.Find("MAP").GetComponentsInChildren<SpriteRenderer>();
+        if(componentsInChildren!=null)
+        for (int i = 0; i < componentsInChildren.Length; i++)
+        {
+            componentsInChildren[i].enabled = false;
+        }
+        Collider2D[] componentsInChildren2 = GameObject.Find("MAP").GetComponentsInChildren<Collider2D>();
+        for (int i = 0; i < componentsInChildren2.Length; i++)
+        {
+            componentsInChildren2[i].enabled = false;
+        }
+        AudioSource[] componentsInChildren3 = GameObject.Find("MAP").GetComponentsInChildren<AudioSource>();
+        foreach (AudioSource audioSource in componentsInChildren3)
+        {
+            if (audioSource.isPlaying)
+            {
+                audioSource.enabled = false;
+            }
+        }
+        TilemapRenderer[] componentsInChildren4 = GameObject.Find("MAP").GetComponentsInChildren<TilemapRenderer>();
+        for (int i = 0; i < componentsInChildren4.Length; i++)
+        {
+            componentsInChildren4[i].enabled = false;
+        }
+        SpriteMask[] componentsInChildren5 = GameObject.Find("MAP").GetComponentsInChildren<SpriteMask>();
+        for (int i = 0; i < componentsInChildren5.Length; i++)
+        {
+            componentsInChildren5[i].enabled = false;
+        }
+        moveFrames = frames;
+        soulPos = toSoulPos + new Vector2(Camera.main.transform.position.x, Camera.main.transform.position.y);
+        iFrameMax = 15 + moveFrames;
+        locked = true;
+        soul = Instantiate(Resources.Load<GameObject>("overworld/OWSoul"), base.transform);
+        oldSoulPos = soul.transform.position;
+        soul.transform.localScale = new Vector2(0.5f, 0.5f);
+        soul.GetComponent<SpriteRenderer>().sortingOrder = sr.sortingOrder + 300;
+        soul.GetComponent<SpriteRenderer>().enabled = false;
+        initiating = true;
+        //Aici am ramas
+    }
 
+    public void InitiateBattle()
+    {
+        InitiateBattle(new Vector2(-5.646f, -4.48f), 9);
+    }
+
+    public void InitiateBattle(int btl)
+    {
+        battleId = btl;
+        InitiateBattle();
+        SetCustomSoulColor(btl);
+    }
+
+    public void InitiateBattle(int btl, Vector2 toSoulPos, int frames)
+    {
+        battleId = btl;
+        InitiateBattle(toSoulPos, frames);
+        SetCustomSoulColor(btl);
+    }
+    public void SetMovement(bool newMove)
+    {
+        if (moveState == 1)
+        {
+            if (!canMove && !newMove)
+            {
+                specialBattleFreeze = true;
+            }
+            else if (newMove && specialBattleFreeze)
+            {
+                specialBattleFreeze = false;
+            }
+            return;
+        }
+        if (!col.enabled && newMove)
+        {
+            SetCollision(onoff: true);
+        }
+        if (canMove && !newMove && IsMoving())
+        {
+            movePM = false;
+        }
+        else if (!canMove && newMove && HoldingMoveButtons())
+        {
+            movePM = true;
+        }
+        canMove = newMove;
+    }
+    private void SetCustomSoulColor(int bt)
+    {
+        if (bt != 53)
+        {
+            soul.GetComponent<SpriteRenderer>().color = Color.red;//SOUL.GetSOULColorByID(Util.GameManager().GetFlagInt(312));
+        }
+    }
     public void EnableStepSounds(string customFootStep = "")
     {
         this.customFootStep = customFootStep;
@@ -292,7 +461,6 @@ public class PlayerController : MonoBehaviour
     {
         return noclip;
     }
-
     public void SetCollision(bool onoff)
     {
         GetComponentInChildren<InteractionTrigger>().GetComponent<BoxCollider2D>().enabled = onoff;
@@ -358,5 +526,19 @@ public class PlayerController : MonoBehaviour
     {
         base.transform.position = spawnPos;
         ChangeDirection(spawnDir);
+    }
+    public void Deactivate()
+    {
+        if (!locked)
+        {
+            activated = false;
+            doLastMove = true;
+        }
+    }
+    public void Activate()
+    {
+        activated = true;
+        canMove = true;
+        locked = false;
     }
 }

@@ -198,6 +198,7 @@ public class MusicPlayer : MonoBehaviour
             isPlaying = true;
             return;
         }
+
         hasIntro = intro;
         isPlaying = playImmediately;
         isOverlap = overlap;
@@ -205,7 +206,33 @@ public class MusicPlayer : MonoBehaviour
         isOverlapMaxFrames = overlapMaxFrames;
         Awake();
     }
+    public void ChangeMusic(AudioClip clip, bool intro, bool playImmediately, bool overlap, int overlapMaxFrames)
+    {
+        StopAllCoroutines();
+        pauseSecs = 0f;
+        src.time = 0f;
+        if (fadingOut && playImmediately)
+        {
+            fadingOut = false;
+            Stop();
+            src.volume = baseVolume;
+        }
+        if (IsPlaying())
+        {
+            Stop();
+        }
+        isPaused = false;
+        musicName = name;
 
+        hasIntro = intro;
+        isPlaying = playImmediately;
+        isOverlap = overlap;
+        isOverlapFrames = 0;
+        isOverlapMaxFrames = overlapMaxFrames;
+        src.clip = clip;
+        src.loop = !intro;
+        src.Play();
+    }
     public void ChangeMusic(string name, bool intro, bool playImmediately)
     {
         StopAllCoroutines();

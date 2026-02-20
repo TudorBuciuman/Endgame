@@ -66,7 +66,7 @@ public class LoadingZone : OverworldManipulator
         {
             return;
         }
-        /*
+        */
         if ((forceActivationFlag > -1 && (int)FindFirstObjectByType<GameManager>().GetFlag(forceActivationFlag) == 0) || forceActivationTrigger)
         {
             FindFirstObjectByType<GameManager>().DisablePlayerMovement(deactivatePartyMembers: false);
@@ -74,8 +74,7 @@ public class LoadingZone : OverworldManipulator
             new GameObject("txt").AddComponent<TextBox>().CreateBox(new string[1] { denyText }, new string[1] { denySound }, new int[1], new string[1] { denyPortrait });
             return;
         }
-        */
-        //GameObject.Find("GameManager").GetComponent<GameManager>().DisablePlayerMovement(deactivatePartyMembers: true);
+        GameObject.Find("GameManager").GetComponent<GameManager>().DisablePlayerMovement(true);
         activated = true;
     }
 

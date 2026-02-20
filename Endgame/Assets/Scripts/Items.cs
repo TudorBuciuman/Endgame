@@ -11,71 +11,77 @@ public class Items : MonoBehaviour
     BishopStaff = 2,
     RookHammer = 3,
     QueenRapier = 4,
-    KingShield = 5
+    KingShield = 5,
+    Sword=6
 }
 
-private static string[] items = new string[45]
+private static string[] items = new string[46]
 {
-    "Pawn's Dagger", "Knight's Lance", "Bishop's Staff", "Rook's Hammer", "Queen's Rapier",
-    "King's Shield", "Checkmate Bow", "Castle Armor", "En Passant Boots", "Promotion Ring",
+    "Pawn's Dagger", "Knight's Lance", "Bishop's Staff", "Rook's Hammer", "Queen's Rapier","King's Sword", 
+    "Checkmate Bow", "Castle Armor", "En Passant Boots", "Promotion Ring",
     "Opening Gambit Scroll", "Midgame Tonic", "Endgame Potion", "Check Scroll", "Mate Talisman",
-    "Captured Piece Charm", "Chessboard Cloak", "White Crown", "Black Crown", "Grandmaster's Tome",
+    "Captured Piece Charm", "Pawn's Armor", "White Crown", "Black Crown", "Grandmaster's Tome",
 
     // Food and drink
     "Pawn Bread", "Knight's Stew", "Bishop's Wine", "Rook Biscuit", "Queen's Tea",
     "King's Feast", "Checkmate Cake", "Castling Cheese", "En Passant Eclair", "Promotion Pie",
     "Opening Omelette", "Midgame Muffin", "Endgame Espresso", "Check Chocolate", "Mate Macaron",
     "Captured Cookie", "Bishop's Honey", "Rook Roast", "Knight's Ale", "Queen's Sorbet",
-    "King's Honeyed Bread", "Pawn Porridge", "Chessboard Candy", "Grandmaster's Coffee", "Royal Jelly"
+    "King's Honeyed Bread", "Pawn Porridge", "Chessboard Candy", "Grandmaster's Coffee", "Royal Jelly",
+    //something else
+    "Twisted Sword"
 };
 
-private static string[] shortName = new string[45]
+private static string[] shortName = new string[46]
 {
     "PawnDagger", "KnightLance", "BishopStaff", "RookHammer", "QueenRapier",
-    "KingShield", "CheckBow", "CastleArmor", "EnPassBoots", "PromoRing",
+    "KingSword", "CheckBow", "CastleArmor", "EnPassBoots", "PromoRing",
     "GambitScrl", "MidTonic", "EndPotion", "CheckScrl", "MateTalis",
-    "CaptCharm", "BoardCloak", "WhtCrown", "BlkCrown", "GMtome",
+    "CaptCharm", "PawnArmor", "WhtCrown", "BlkCrown", "GMtome",
 
     "PawnBread", "KnightStew", "BishopWine", "RookBisc", "QueenTea",
     "KingFeast", "CheckCake", "CastleChz", "EnPassEcl", "PromoPie",
     "OpenOmlet", "MidMuffin", "EndEsp", "CheckChoc", "MateMac",
     "CaptCookie", "BishHoney", "RookRoast", "KnightAle", "QueenSorb",
-    "KingBread", "PawnPorr", "BoardCandy", "GMCoffee", "RoyalJelly"
+    "KingBread", "PawnPorr", "BoardCandy", "GMCoffee", "RoyalJelly",
+    "TwistSword"
 };
 
-private static string[] seriousName = new string[45]
+private static string[] seriousName = new string[46]
 {
     "PawnDagger", "KnightLance", "BishopStaff", "RookHammer", "QueenRapier",
-    "KingShield", "CheckBow", "CastleArmor", "EnPassBoots", "PromotionRing",
+    "KingSword", "CheckBow", "CastleArmor", "EnPassBoots", "PromotionRing",
     "GambitScroll", "MidTonic", "EndPotion", "CheckScroll", "MateTalisman",
-    "CapturedCharm", "BoardCloak", "WhiteCrown", "BlackCrown", "GMtome",
+    "CapturedCharm", "PawnArmor", "WhiteCrown", "BlackCrown", "GMtome",
 
     "PawnBread", "KnightStew", "BishopWine", "RookBiscuit", "QueenTea",
     "KingFeast", "CheckCake", "CastleCheese", "EnPassantEclair", "PromotionPie",
     "OpeningOmelette", "MidgameMuffin", "EndgameEspresso", "CheckChocolate", "MateMacaron",
     "CapturedCookie", "BishopHoney", "RookRoast", "KnightAle", "QueenSorbet",
-    "KingsHoneyBread", "PawnPorridge", "BoardCandy", "GMCoffee", "RoyalJelly"
+    "KingsHoneyBread", "PawnPorridge", "BoardCandy", "GMCoffee", "RoyalJelly",
+    "Sword"
 };
 
-private static string[] desc = new string[45]
+private static string[] desc = new string[46]
 {
     "* A small blade used by\n  pawns in close combat.",
     "* A long, curved lance\n  favored by knights.",
     "* A holy staff that channels\n  diagonal energy.",
     "* A crushing hammer that\n  smashes through ranks.",
     "* A swift rapier with\n  unmatched precision.",
-    "* A massive shield that\n  protects the monarch.",
+    "* A long sword that's\n  too heavy to lift.",
+
     "* A bow that delivers\n  the final blow.",
     "* Heavy armor that\n  resembles a castle.",
     "* Boots granting sidestep\n  mastery like en passant.",
-    "* A ring that promotes\n  its wearer’s abilities.",
+    "* A ring that promotes\n  its wearer's abilities.",
     "* A scroll describing bold\n  first moves.",
     "* A tonic that restores\n  mid-battle stamina.",
     "* A potion granting strength\n  in the final phase.",
     "* A scroll that forces\n  the foe into check.",
     "* A talisman ensuring\n  the final strike.",
     "* A charm holding the soul\n  of a fallen piece.",
-    "* A cloak patterned like\n  a chessboard.",
+    "* Armor patterned like\n  a chessboard.",
     "* A crown worn by the\n  white monarch.",
     "* A crown worn by the\n  black monarch.",
     "* The legendary tome of\n  chess wisdom.",
@@ -84,7 +90,7 @@ private static string[] desc = new string[45]
     "* A rich stew favored by\n  mounted warriors.",
     "* A glass of fine wine\n  for clerics of the board.",
     "* A crumbly biscuit,\n  crunchy as a rook's walls.",
-    "* A delicate tea with the\n  queen’s personal blend.",
+    "* A delicate tea with the\n  queen's personal blend.",
     "* A feast fit for a king.",
     "* A decadent cake celebrating\n  victory on the board.",
     "* Cheese aged in the\n  safety of a castle.",
@@ -97,20 +103,21 @@ private static string[] desc = new string[45]
     "* A small macaron for the\n  final victory.",
     "* A cookie taken from\n  a captured opponent.",
     "* Sweet honey gifted by\n  a bishop.",
-    "* Slow-roasted meat with\n  rook’s patience.",
+    "* Slow-roasted meat with\n  rook's patience.",
     "* A strong ale that fuels\n  the charge.",
     "* A frozen dessert fit\n  for royalty.",
     "* Sweet bread glazed with\n  golden honey.",
     "* A warm porridge for\n  early moves.",
     "* Candy patterned like a\n  chessboard.",
     "* A cup of strong coffee\n  for deep planning.",
-    "* Sweet, golden royal jelly."
+    "* Sweet, golden royal jelly.",
+    "* A really strange blade.\n  Used for killing kings."
 };
     //0 - food
     //1 - atk
     //2 - arm
     //3 - idk
-private static int[] typesss = new int[45]
+private static int[] typesss = new int[46]
 {
     0, 1, 2, 3, 4,
     5, 4, 3, 0, 2,
@@ -122,31 +129,35 @@ private static int[] typesss = new int[45]
     0, 0, 0, 0, 0,
     0, 0, 0, 0, 0,
     0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0
+    0, 0, 0, 0, 0,
+
+    6
 };
-    private static int[] types = new int[45]
+    private static int[] types = new int[46]
 {
     1, 1, 1, 1, 1,
-    1, 2, 2, 2, 2,
+    1, 1, 2, 2, 2,
     2, 2, 0, 0, 0,
-    0, 0, 0, 0, 0,
+    0, 2, 2, 2, 2,
 
     // Food mostly type 0 (consumable)
     0, 0, 0, 0, 0,
     0, 0, 0, 0, 0,
     0, 0, 0, 0, 0,
     0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0
+    0, 0, 0, 0, 0,
+
+    1
 };
 
 
     private static int[] value = new int[46]
     {
         1, 20, 20, 25, 30, 99, 2, 3, 4, 5,
-        10, 1, 24, 3, 5, 8, 0, 26, 18, 8,
-        12, 8, 10, 24, 0, 1, 15, 15, 19, 25,
+        10, 10, 24, 3, 5, 8, 1, 26, 18, 8,
+        12, 8, 10, 24, 20, 30, 15, 15, 19, 25,
         18, 8, 5, 3, 3, 11, 11, 22, 15, 8,
-        5, 12, 3, 10, 15, 0
+        5, 12, 3, 10, 15, 99
     };
     private static Dictionary<int, int> weaponTypes = new Dictionary<int, int>
     {
@@ -223,25 +234,19 @@ private static int[] typesss = new int[45]
         return types[i];
     }
 
-    public static int ItemValue(int i, int partyMember = 0)
+    public static int ItemValue(int i)
     {
         switch (i)
         {
             case -1:
                 return 0;
-            case 23:
-                if (partyMember == 2)
-                {
-                    return value[i] / 2;
-                }
-                break;
         }
         return value[i];
     }
 
-    public static string ItemUse(int i, int from, int to, bool serious)
+    public static string ItemUse(int i)
     {
-        string text = "* " + "you ";
+        string text = "* You ";
         if (ItemType(i) == 0)
         {
             text += "ate the ";
@@ -249,7 +254,7 @@ private static int[] typesss = new int[45]
                 text+= ItemName(i) + "\n";
             else
                 text += seriousName[i] + "\n";
-            int hp = ItemValue(i, to);
+            int hp = ItemValue(i);
             text += GetRecoveryString(hp);
         }
         else if (ItemType(i) == 1)
@@ -327,7 +332,7 @@ private static int[] typesss = new int[45]
 
     public static string GetWeaponTypeName(int i)
     {
-        string[] array = new string[6] { "PawnBlade","KnightLance","BishopStaff","RookHammer","QueenRapier","KingShield" };
+        string[] array = new string[6] { "PawnBlade","KnightLance","BishopStaff","RookHammer","QueenRapier","KingSword" };
         int weaponType = GetWeaponType(i);
         if (weaponType < array.Length)
         {
@@ -380,10 +385,6 @@ private static int[] typesss = new int[45]
         }
         switch (i)
         {
-            case 24:
-                return "Increases Susie's AT by 10";
-            case 45:
-                return "Skips enemy turn";
             default:
                 return "";
         }

@@ -63,22 +63,29 @@ public class Selection : UIComponent
         isEnabled = false;
         waitUntilUp = false;
         wrap = false;
+        if (!Object.FindObjectOfType<BattleManager>())
+        {
+            if (UTInput.GetAxis("Horizontal") != 0f)
+            {
+                xAxisIsDown = true;
+            }
+            if (UTInput.GetAxis("Vertical") != 0f)
+            {
+                yAxisIsDown = true;
+            }
 
-        if (UTInput.GetAxis("Horizontal") != 0f)
-        {
-            xAxisIsDown = true;
+            axisIsDown = xAxisIsDown || yAxisIsDown;
         }
-        if (UTInput.GetAxis("Vertical") != 0f)
-        {
-           yAxisIsDown = true;
-        }
-        axisIsDown = xAxisIsDown || yAxisIsDown;
     }
 
     private void Update()
     {
         if (isEnabled && !waitUntilUp)
         {
+            if ((bool)soul && isUsingSoul && (bool)Object.FindObjectOfType<BattleManager>())
+            {
+                soul.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0f);
+            }
             if (Mathf.Round(UTInput.GetAxisRaw("Horizontal")) != 0f || Mathf.Round(UTInput.GetAxisRaw("Vertical")) != 0f)
             {
                 prevIndex = index;
@@ -218,12 +225,11 @@ public class Selection : UIComponent
                 texts[i, j].transform.localPosition = mainPos + new Vector3(mainDif[0] * (float)j, mainDif[1] * (float)i);
                 texts[i, j].GetComponent<Text>().text = sels[i, j];
                 texts[i, j].GetComponent<Text>().font = Util.PackManager().GetFont(Resources.Load<Font>("fonts/" + font), font);
-                /*
+                
                 if ((bool)Object.FindObjectOfType<BattleManager>())
                 {
                     texts[i, j].transform.localScale = new Vector3(1f, 1f, 1f);
                 }
-                */
             }
         }
         soulDif = soulDistFromPivot;
@@ -237,7 +243,7 @@ public class Selection : UIComponent
             soul.transform.SetParent(base.transform);
             soul.transform.localPosition = mainPos + soulDif;
            // soul.GetComponent<Image>().color = SOUL.GetSOULColorByID(Util.GameManager().GetFlagInt(312));
-           /*
+           
             if ((bool)Object.FindObjectOfType<BattleManager>())
             {
                 soul.transform.localScale = new Vector3(1f, 1f, 1f);
@@ -266,7 +272,7 @@ public class Selection : UIComponent
             {
                 soul.GetComponent<Image>().sprite = Resources.Load<Sprite>("overworld/spr_soul_ow_bnp");
             }
-           */
+           
         }
     
         //else

@@ -50,6 +50,8 @@ public class TextBox : UIComponent
 
     private bool canSkip;
 
+    public static bool CanSkip = true;
+
     private bool disabled;
 
     private bool selectionEnabled;
@@ -68,7 +70,7 @@ public class TextBox : UIComponent
 
     private void Awake()
     {
-        canSkip = true;
+        canSkip = CanSkip;
         lastString = 0;
         firstString = false;
         isControllable = true;
@@ -121,7 +123,7 @@ public class TextBox : UIComponent
         {
             if (text.IsPlaying())
             {
-                if ((Input.GetKeyDown(KeyCode.X)) && canSkip)
+                if ((UTInput.GetButton("X") || UTInput.GetButton("C")) && canSkip)
                 {
                     text.SkipText();
                 }
@@ -133,7 +135,7 @@ public class TextBox : UIComponent
                     remark = Object.Instantiate(Resources.Load<GameObject>("ui/TextRemark"), menu.transform).GetComponent<TextRemark>();
                     remark.StartRemark(remarkLocations[portrait ? 1 : 0][boxPos], textRemarks[currentString].Dequeue());
                 }
-                if (Input.GetKeyDown(KeyCode.X) && remark.CanAdvance())
+                if ((UTInput.GetButtonDown("X") || UTInput.GetButton("C")) && remark.CanAdvance())
                 {
                     remark.Skip();
                 }
@@ -146,7 +148,7 @@ public class TextBox : UIComponent
                     }
                 }
             }
-            else if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return)  || Input.GetKeyDown(KeyCode.KeypadEnter) || forceAdvance) && !disabled)
+            else if ((UTInput.GetButtonDown("Z") || forceAdvance) && !disabled)
             {
                 forceAdvance = false;
                 text.DestroyOldText();
@@ -177,16 +179,20 @@ public class TextBox : UIComponent
                     {
                         toNewTextFrames = 3;
                     }
-                    if (Input.GetKey(KeyCode.X))
+                    if (UTInput.GetButton("X") || UTInput.GetButton("C"))
                     {
                         toNewTextFrames = 9;
                     }
                 }
                 else if (!selectionEnabled)
                 {
+                    if (giveControl)
+                    {
+                        GameManager.instance.EnablePlayerMovement();
+                        GameManager.instance.canMove = true;
+                        GameManager.instance.canInteract = true;
+                    }
                     Object.Destroy(base.gameObject);
-                    GameManager.instance.canMove = true;
-                    GameManager.instance.canInteract = true;
                 }
                 else
                 {
@@ -194,7 +200,7 @@ public class TextBox : UIComponent
                 }
             }
         }
-        if (portFrames > -1 || infinitePortrait)
+        if (portFrames > -1 && !infinitePortrait)
         {
             portFrames++;
             if (portFrames == portraitSpeed)
@@ -246,14 +252,73 @@ public class TextBox : UIComponent
         {
             vector = new Vector3(0f, -4f);
         }
+        if (!PortraitIsEmpty(currentString))
+        {
+            text.GetGameObject().transform.localPosition = portTextLocations[2 + boxPos] + vector;
+            StartPortrait();
+        }
+        else
+        {
+            if ((bool)portrait)
+            {
+                Object.Destroy(portrait);
+            }
+            text.GetGameObject().transform.localPosition = portTextLocations[boxPos] + vector;
+        }
         currentString++;
-        if (Input.GetKey(KeyCode.X) && canSkip)
+        if ((UTInput.GetButton("X") || UTInput.GetButton("C")) && canSkip)
         {
             text.SkipText();
         }
     }
 
-
+    private void StartPortrait()
+    {
+        if (portrait != null)
+        {
+            Object.Destroy(portrait);
+        }
+        currentPortrait = currentString;
+        Sprite sprite = Resources.Load<Sprite>("overworld/npcs/portraits/spr_" + portraits[currentPortrait] + "_0");
+        if (!sprite)
+        {
+            //portraits[currentPortrait] = "portrait_default";
+            sprite = Resources.Load<Sprite>("overworld/npcs/portraits/spr_" + portraits[currentPortrait]);
+            portrait = new GameObject("PORTRAIT_" + portraits[currentPortrait]);
+            portrait.transform.SetParent(text.transform);
+            portrait.AddComponent<RectTransform>();
+            portrait.AddComponent<Image>();
+            float num = 1f;
+            if (portraits[currentPortrait] == "no_realistic")
+            {
+                num = 1f;
+            }
+            portrait.GetComponent<RectTransform>().sizeDelta = new Vector2(sprite.rect.width * num / 48f, sprite.rect.height * num / 48f);
+            portrait.GetComponent<Image>().sprite = sprite;
+            portrait.transform.localPosition = portTextLocations[4 + boxPos];
+            portFrames = 0;
+            //portraitSpeed = 6;
+            infinitePortrait = true;
+        }
+        else
+        {
+            portrait = new GameObject("PORTRAIT_" + portraits[currentPortrait]);
+            portrait.transform.SetParent(text.transform);
+            portrait.AddComponent<RectTransform>();
+            portrait.AddComponent<Image>();
+            float num = 1f;
+            if (portraits[currentPortrait] == "no_realistic")
+            {
+                num = 1f;
+            }
+            portrait.GetComponent<RectTransform>().sizeDelta = new Vector2(sprite.rect.width * num / 48f, sprite.rect.height * num / 48f);
+            portrait.GetComponent<Image>().sprite = sprite;
+            portrait.transform.localPosition = portTextLocations[4 + boxPos];
+            portFrames = 0;
+            portraitSpeed = 6;
+            infinitePortrait = false;
+        }
+    }
 
     public void CreateBox(string[] stuffToSay, string[] sound, int[] speed, int location, bool giveBackControl, string[] portraitNames)
     {
@@ -407,10 +472,10 @@ public class TextBox : UIComponent
 
     private void OnDestroy()
     {
-        Destroy(menu);
-        if (giveControl && (bool)Object.FindFirstObjectByType<GameManager>())
+        Object.Destroy(menu);
+        if (giveControl && (bool)Object.FindObjectOfType<GameManager>())
         {
-            //Object.FindObjectOfType<GameManager>().EnablePlayerMovement();
+            Object.FindObjectOfType<GameManager>().EnablePlayerMovement();
         }
     }
 

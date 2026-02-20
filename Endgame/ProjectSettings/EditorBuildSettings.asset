@@ -21,13 +21,13 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/1.Fighting/Great board.unity
+    path: Assets/Scenes/2.Rising/Great board.unity
     guid: aa795e559ac9004488d9c72e40fd032c
   - enabled: 1
     path: Assets/Scenes/1.Fighting/fallen.unity
     guid: 2fcc8d5682dcccd4b97a3a33fcb6411a
   - enabled: 1
-    path: Assets/Scenes/1.Fighting/scene2.unity
+    path: Assets/Scenes/1.Fighting/fallen2.unity
     guid: 64b725bc13387194da15e8f37eff9c9d
   - enabled: 1
     path: Assets/Scenes/3.Falling/fallen 1.unity
@@ -35,5 +35,53 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/1.Fighting/The Rook\u2019s Hall.unity"
     guid: 114f09162c5e92c46b85eacbfec57f0a
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: b95c5298ce349af4892229e9d26c88f7
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/rook_1.unity
+    guid: 88c472c3f34a46b43bf75dbad7244945
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/rook_2.unity
+    guid: 82b77988b2191da4caf6679ebc293293
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/Pawn's square.unity
+    guid: a91ce82020c5a7542b8508b9bfb72318
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/City.unity
+    guid: 55a0953eaeaa08b42982110c59d00077
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/Castle.unity
+    guid: b9e6fe95eed62734786ecf2d91b22b52
+  - enabled: 1
+    path: Assets/Scenes/DeathScreen.unity
+    guid: 1e94270885febca418eef4690945a01e
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/Knight's stable.unity
+    guid: 082efc3b8d7521942b63a4a93ec3760e
+  - enabled: 1
+    path: Assets/Scenes/1.Fighting/knight_1.unity
+    guid: 667d388042ea52e4fb9ac73726d11726
+  - enabled: 1
+    path: Assets/Scenes/Test/Settings.unity
+    guid: f8d1a4bd02e995142949e23d33100efe
+  - enabled: 1
+    path: Assets/Scenes/2.Rising/mystery_room.unity
+    guid: 31487ec81c2217045832f4869d901640
+  - enabled: 1
+    path: Assets/Scenes/Trailers/LCHM_1_Entrance.unity
+    guid: 5e981020a6b7d7a458a71e26f593d4ad
+  - enabled: 1
+    path: Assets/Scenes/Trailers/LCHM_2_Pit.unity
+    guid: 4fbde79610f4c3a4aa2b7505a1059faf
+  - enabled: 1
+    path: Assets/Scenes/Trailers/LCHM_3_End.unity
+    guid: df580af586a553142aa2774331ac89bd
+  - enabled: 1
+    path: Assets/Scenes/Trailers/LCHM_4_Hall.unity
+    guid: 93935d9fca4a4b44ca5432a1eb180df2
+  - enabled: 1
+    path: Assets/Scenes/Trailers/LCHM_6.unity
+    guid: 7a56b6e8e36b7b649b3a1ee409b5f853
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

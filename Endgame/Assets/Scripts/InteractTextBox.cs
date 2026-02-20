@@ -64,16 +64,15 @@ public class InteractTextBox : Interactable
 
     protected virtual void Awake()
     {
-        /*
+        
         if (forceSecondaryAtFlag > -1 && (int)Util.GameManager().GetFlag(forceSecondaryAtFlag) == 1)
         {
             talkedToBefore = true;
         }
-        if (vanishAtFlag > -1 && (int)Object.FindObjectOfType<GameManager>().GetFlag(vanishAtFlag) >= vanishAtCount)
+        if (vanishAtFlag > -1 && (int)FindFirstObjectByType<GameManager>().GetFlag(vanishAtFlag) >= vanishAtCount)
         {
             Object.Destroy(base.gameObject);
         }
-        */
     }
 
     protected virtual void Update()
@@ -156,16 +155,13 @@ public class InteractTextBox : Interactable
         {
             CreateTextBox(lines, sounds, speed, giveBackControl: true, portraits, remarks);
         }
-        /*
-        Object.FindObjectOfType<GameManager>().DisablePlayerMovement(deactivatePartyMembers: false);
         talkedToBefore = true;
+
         if (triggerFlag > -1 && Util.GameManager().GetFlagInt(triggerFlag) == 0)
         {
             Util.GameManager().SetFlag(triggerFlag, 1);
         }
-        */
     }
-
     public override int GetEventData()
     {
         return -1;

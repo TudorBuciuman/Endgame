@@ -22,12 +22,12 @@ public static class Util
         return UnityEngine.Object.FindObjectOfType<PackManager>();
     }
 
-    /*
+    
     public static MiscellaneousStrings MiscStrings()
     {
         return UnityEngine.Object.FindObjectOfType<MiscellaneousStrings>();
     }
-    */
+    
     public static string Unescape(string str)
     {
         try

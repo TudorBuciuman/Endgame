@@ -11,16 +11,15 @@ public class InteractionTrigger : MonoBehaviour
         passAttempt = 0;
         if (triggering)
         {
-            base.transform.localPosition = Vector3.zero;
+            transform.localPosition = Vector3.zero;
             triggering = false;
         }
         
-        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return))
+        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)) && GameManager.instance.canMove)
         {
-            //base.transform.localPosition = Object.FindObjectOfType<OverworldPlayer>().GetDirection() * 0.25f;
+            transform.localPosition = FindFirstObjectByType<PlayerController>().GetDirection() * 0.25f;
             triggering = true;
         }
-        
     }
 
     private void AttemptInteract(Interactable interactable)

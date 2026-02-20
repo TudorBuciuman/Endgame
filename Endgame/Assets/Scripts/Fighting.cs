@@ -20,7 +20,6 @@ public class Fighting : MonoBehaviour
     public GameObject light_beamed;
 
     public GameObject Fight;
-    public AudioClip fighting;
     public Text OminousNarator;
     
 
@@ -267,7 +266,7 @@ public class Fighting : MonoBehaviour
         mountain_dark.SetActive(true);
         //shake low
         StartCoroutine(Shake(150f, 0.001f));
-        yield return new WaitForSeconds(151);
+        yield return new WaitForSeconds(153);
         mountain_halo.SetActive(true);
         mountain_dark.SetActive(false);
         PlayerPrefs.SetInt("sawIntro", 10);
