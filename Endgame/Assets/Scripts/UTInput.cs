@@ -1,17 +1,35 @@
 using System;
 using System.Collections.Generic;
+using System.IO.Compression;
 using UnityEngine;
 
 public class UTInput : MonoBehaviour
 {
+    private static float xAxis = 0f;
+
+    private static float yAxis = 0f;
+
+    private static int z = 0;
+
+    private static bool zHold = false;
+
+    private static int x = 0;
+
+    private static bool xHold = false;
+
+    private static int c = 0;
+
+    private static bool cHold = false;
 
     public static bool joystickIsActive = false;
+    private static bool frameButtonPress = false;
+    private static bool zact = false, xact = false, cact = false;
 
-    public static bool touchpadIsActive = false;
+
     /*
 
     private static Dictionary<string, Key> keys = new Dictionary<string, Key>();
-
+    /*
     private static Dictionary<string, GamepadButton> buttons = new Dictionary<string, GamepadButton>();
 
     public static string[] controlNames = new string[7] { "Up", "Down", "Left", "Right", "Z", "X", "C" };
@@ -35,39 +53,26 @@ public class UTInput : MonoBehaviour
         }
         LoadInputsFromConfig(UnityEngine.Object.FindObjectOfType<GameManager>().config);
     }
-
-    private void FixedUpdate()
+    */
+    private void Awake()
     {
-        if (frameButtonPress)
+        //joystickIsActive = true;
+    }
+    
+    private void LateUpdate()
+    {
+        if (joystickIsActive)
         {
-            z = 0;
-            x = 0;
-            c = 0;
-            frameButtonPress = false;
-        }
-        if (Gamepad.current != null)
-        {
-            if (Keyboard.current != null && Keyboard.current.anyKey.isPressed)
-            {
-                joystickIsActive = false;
-            }
-            string[] array = inputNames;
-            foreach (string key in array)
-            {
-                if (Gamepad.current[buttons[key]].wasPressedThisFrame)
-                {
-                    joystickIsActive = true;
-                    touchpadIsActive = false;
-                    break;
-                }
-            }
-        }
-        else
-        {
-            joystickIsActive = false;
+            zact = false;
+            xact = false;
+            cact = false;
+            
+            //z = 0;
+            //x = 0;
+            //c = 0;
         }
     }
-
+/*
     private static float GetPriorityAxis(string name)
     {
         bool flag = false;
@@ -130,6 +135,20 @@ public class UTInput : MonoBehaviour
     */
     public static float GetAxisRaw(string name)
     {
+        if (joystickIsActive)
+        {
+            switch (name)
+            {
+                case "Vertical":
+                    return yAxis;
+
+                case "Horizontal":
+                    return xAxis;
+
+                default:
+                    return 0f;
+            }
+        }
         switch (name)
         {
             case "Vertical":
@@ -146,6 +165,20 @@ public class UTInput : MonoBehaviour
     }
     public static float GetAxisDown(string name)
     {
+        if (joystickIsActive)
+        {
+            switch (name)
+            {
+                case "Vertical":
+                    return yAxis;
+
+                case "Horizontal":
+                    return xAxis;
+
+                default:
+                    return 0f;
+            }
+        }
         switch (name)
         {
             case "Vertical":
@@ -174,57 +207,59 @@ public class UTInput : MonoBehaviour
         }
         if (button == "Z")
         {
-            return Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter)|| Input.GetKeyDown(KeyCode.Return);
+            return Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter)|| Input.GetKeyDown(KeyCode.Return) || (joystickIsActive && zHold && zact);
         }
         if (button == "X")
         {
-            return Input.GetKeyDown(KeyCode.X);
+            return Input.GetKeyDown(KeyCode.X) || (joystickIsActive && xHold && xact);
         }
         if (button == "C")
         {
-            return Input.GetKeyDown(KeyCode.C);
+            return Input.GetKeyDown(KeyCode.C) || (joystickIsActive && cHold && cact);
         }
         return false;
     }
     
     public static bool GetButtonUp(string button)
-    {
+    {/*
         if (!Application.isFocused)
         {
             return false;
-        }
+        }*/
+
         if (button == "Z")
         {
-            return Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.KeypadEnter) || Input.GetKeyUp(KeyCode.Return);
+            return Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.KeypadEnter) || Input.GetKeyUp(KeyCode.Return) || (joystickIsActive && (zHold || zact));
         }
         if (button == "X")
         {
-            return Input.GetKeyUp(KeyCode.X);
+            return Input.GetKeyUp(KeyCode.X) || (joystickIsActive && (xHold || xact));
         }
         if (button == "C")
         {
-            return Input.GetKeyUp(KeyCode.C);
+            return Input.GetKeyUp(KeyCode.C) || (joystickIsActive && (cHold || cact));
         }
         return false;
     }
     
     public static bool GetButton(string button)
     {
+
         if (!Application.isFocused)
         {
             return false;
         }
         if (button == "Z")
         {
-            return Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.KeypadEnter) || Input.GetKey(KeyCode.Return);
+            return Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.KeypadEnter) || Input.GetKey(KeyCode.Return) || (joystickIsActive && zHold);
         }
-        if (button == "X")
+        if (button == "X" )
         {
-            return Input.GetKey(KeyCode.X);
+            return Input.GetKey(KeyCode.X) || (joystickIsActive && xHold);
         }
         if (button == "C")
         {
-            return Input.GetKey(KeyCode.C);
+            return Input.GetKey(KeyCode.C) || (joystickIsActive && cHold);
         }
         return false;
     }
@@ -414,7 +449,7 @@ public class UTInput : MonoBehaviour
         SaveInputsToConfig(config);
         config.Write();
     }
-
+    
     private static void SetKey(string input, Key key)
     {
         keys[input] = key;
@@ -640,7 +675,7 @@ public class UTInput : MonoBehaviour
     public static void DebugPrintJoystickState()
     {
         MonoBehaviour.print(Gamepad.current.leftStick.ReadValue());
-    }
+    }*/
 
     public static void SetValue(string input, bool value, bool pos, bool diag, bool left)
     {
@@ -691,6 +726,7 @@ public class UTInput : MonoBehaviour
                 z = 2;
             }
             zHold = value;
+            zact = value;
         }
         if (input == "X")
         {
@@ -703,6 +739,7 @@ public class UTInput : MonoBehaviour
                 x = 2;
             }
             xHold = value;
+            xact = value;
         }
         if (input == "C")
         {
@@ -715,14 +752,10 @@ public class UTInput : MonoBehaviour
                 c = 2;
             }
             cHold = value;
-        }
-        touchpadIsActive = zHold || xHold || cHold || xAxis != 0f || yAxis != 0f;
-        if (touchpadIsActive)
-        {
-            joystickIsActive = false;
+            cact = value;
         }
     }
-
+    /*
     public static void SetPriority(bool b)
     {
         useInputPriority = b;

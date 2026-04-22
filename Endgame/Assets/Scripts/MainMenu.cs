@@ -94,7 +94,7 @@ public class MainMenu : SelectableUIComponent
            
             if ((statMenuOpen || itemsMenuOpen || ActsMenuOpen) && !gm.MenuDis())
             {
-                if (Input.GetKeyDown(KeyCode.X)) 
+                if (UTInput.GetButtonDown("X")) 
                 {
                     if (statMenuOpen)
                     {
@@ -115,7 +115,7 @@ public class MainMenu : SelectableUIComponent
 
                 }
             }
-            else if ((Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.X)) && !gm.MenuDis())
+            else if ((UTInput.GetButtonDown("X") || UTInput.GetButtonDown("C")) && !gm.MenuDis())
             {
                 gm.SetMenu(false);
                 Destroy(pinfo);

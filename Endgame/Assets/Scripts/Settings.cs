@@ -15,7 +15,7 @@ public class Settings : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || UTInput.GetButtonDown("Z"))
         {
             GameUI.canSkip = true;
             SceneManager.LoadScene("Game UI");

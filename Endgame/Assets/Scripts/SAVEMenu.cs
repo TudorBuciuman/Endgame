@@ -159,7 +159,7 @@ public class SaveMenu : UIComponent
         }
         else if (state == 1)
         {
-            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || UTInput.GetButtonDown("Z"))
             {
                 overwriteSaveSlot = index;
                 if (index == saveSlot || !saveSlotsTaken)
@@ -174,7 +174,7 @@ public class SaveMenu : UIComponent
         }
         else if (state == 3)
         {
-            if (((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) )))
+            if (((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || UTInput.GetButtonDown("Z"))))
             {
                 Debug.Log(3);
                 gm.canMove = true;

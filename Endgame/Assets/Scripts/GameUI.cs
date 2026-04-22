@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.AudioSettings;
 
 public class GameUI : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class GameUI : MonoBehaviour
     public static bool canSkip = false;
     public void Start()
     {
+        bool mobile = false;
+#if UNITY_ANDROID
+        mobile = true;
+#endif
         GameManager.instance.SetMenu(true);
         if (canSkip)
         {
@@ -34,8 +39,11 @@ public class GameUI : MonoBehaviour
             audioSource.Play();
             StartCoroutine(Presser());
         }
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (!mobile)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
         LV.text = "LV "+GameManager.instance.GetLV().ToString();
         TIME.text = GameManager.instance.GetFormattedUpdatedPlayTime();
         ZONE.text = MapInfo.GetMapName(GameManager.instance.GetZone());
@@ -45,7 +53,7 @@ public class GameUI : MonoBehaviour
     {
         if (pressedZ)
         {
-            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || UTInput.GetButtonDown("Z"))
             {
                 if (index == 1)
                 {
@@ -59,7 +67,7 @@ public class GameUI : MonoBehaviour
                     //
                 }
             }
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            if (Input.GetKeyDown(KeyCode.DownArrow) || UTInput.GetAxisDown("Vertical")<0)
             {
                 if (index == 1 || index == 2)
                 {
@@ -69,7 +77,7 @@ public class GameUI : MonoBehaviour
                     index = 3;
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.UpArrow))
+            else if (Input.GetKeyDown(KeyCode.UpArrow) || UTInput.GetAxisDown("Vertical")>0)
             {
                 if (index == 3)
                 {
@@ -78,7 +86,7 @@ public class GameUI : MonoBehaviour
                     index = 1;
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            else if (Input.GetKeyDown(KeyCode.RightArrow) || UTInput.GetAxisDown("Horizontal")>0)
             {
                 if (index == 1)
                 {
@@ -93,7 +101,7 @@ public class GameUI : MonoBehaviour
                     index = 1;
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow))
+            else if (Input.GetKeyDown(KeyCode.LeftArrow) || UTInput.GetAxisDown("Horizontal")<0)
             {
                 if (index == 2)
                 {
@@ -130,7 +138,7 @@ public class GameUI : MonoBehaviour
         
         while (true)
         {
-            if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return))
+            if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return) || UTInput.GetButtonDown("Z"))
             {
                 yield return new WaitForSeconds(0.2f);
                 logo.SetActive(false);

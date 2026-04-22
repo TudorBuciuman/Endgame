@@ -11,8 +11,12 @@ public class Intro : MonoBehaviour
     public Text Text;
     public AudioClip boomsound,fightsound;
     public AudioSource AudioSource;
+    private bool mobile = false;
     public void Awake()
     {
+#if UNITY_ANDROID
+        mobile = true;
+#endif
         Application.targetFrameRate = 30;
         Starting();
     }
@@ -36,8 +40,11 @@ public class Intro : MonoBehaviour
         TTG.gameObject.SetActive(true);
         yield return Waiting(2f);
         TTG.gameObject.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (!mobile)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
         PlaySound();
         yield return Waiting(2.6f);
         Text.text = "presents";

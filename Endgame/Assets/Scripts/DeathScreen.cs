@@ -95,7 +95,7 @@ public class DeathScreen : TranslatableBehaviour
             }
             else if(!pressed)
             {
-                if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return) || UTInput.GetButtonDown("Z"))
                 {
                     pressed = true;
                     frames = 0;

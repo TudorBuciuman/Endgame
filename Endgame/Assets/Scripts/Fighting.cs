@@ -33,7 +33,7 @@ public class Fighting : MonoBehaviour
 
     void Start()
     {
-        //StartCoroutine(Choice());
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         StartCoroutine(LightBeamed());
     }
 
@@ -118,7 +118,7 @@ public class Fighting : MonoBehaviour
         while (t<90)
         {
             t += Time.deltaTime;
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if (Input.GetKeyDown(KeyCode.LeftArrow) || UTInput.GetAxisRaw("Horizontal")<0)
             {
                 if (index != 0)
                 {
@@ -129,7 +129,7 @@ public class Fighting : MonoBehaviour
                     pieces[index].SetActive(true);
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            else if (Input.GetKeyDown(KeyCode.RightArrow) || UTInput.GetAxisRaw("Horizontal") > 0)
             {
                 if (index != 5)
                 {
@@ -149,12 +149,12 @@ public class Fighting : MonoBehaviour
         while (t < 90)
         {
             t += Time.deltaTime;
-            if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || UTInput.GetButtonDown("Z"))
             {
                 yield return new WaitForSeconds(0.3f);
                 t = 91;
             }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow))
+            else if (Input.GetKeyDown(KeyCode.LeftArrow) || UTInput.GetAxisRaw("Horizontal") < 0)
             {
                 if (index != 0)
                 {
@@ -163,7 +163,7 @@ public class Fighting : MonoBehaviour
                     names[index].color = yellow;
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            else if (Input.GetKeyDown(KeyCode.RightArrow) || UTInput.GetAxisRaw("Horizontal") > 0)
             {
                 if (index != 5)
                 {

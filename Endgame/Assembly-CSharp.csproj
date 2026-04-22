@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\SOUL.cs" />
     <Compile Include="Assets\Scripts\Settings.cs" />
     <Compile Include="Assets\Scripts\BattleButton.cs" />
+    <Compile Include="Assets\Scripts\MobileUI.cs" />
     <Compile Include="Assets\Scripts\SoulShotChargeEffect.cs" />
     <Compile Include="Assets\Scripts\UTInput.cs" />
     <Compile Include="Assets\Scripts\SAVEMenu.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Scripts\Fade.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SpareDust.cs" />
+    <Compile Include="Assets\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Scripts\GameUI.cs" />
     <Compile Include="Assets\Scripts\DescriptionBox.cs" />
     <Compile Include="Assets\Scripts\DamageNumber.cs" />
@@ -124,6 +126,7 @@
     <Compile Include="Assets\Scripts\SaveFile.cs" />
     <Compile Include="Assets\Scripts\TextBox.cs" />
     <Compile Include="Assets\Scripts\KnightDetectionCutscene.cs" />
+    <Compile Include="Assets\Scripts\TouchButton.cs" />
     <Compile Include="Assets\Scripts\CutsceneStart.cs" />
     <Compile Include="Assets\Scripts\UIComponent.cs" />
     <Compile Include="Assets\Scripts\TextSet.cs" />

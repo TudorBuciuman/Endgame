@@ -15,7 +15,7 @@ public class InteractionTrigger : MonoBehaviour
             triggering = false;
         }
         
-        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return)) && GameManager.instance.canMove)
+        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return) || UTInput.GetButtonDown("Z")) && GameManager.instance.canMove)
         {
             transform.localPosition = FindFirstObjectByType<PlayerController>().GetDirection() * 0.25f;
             triggering = true;

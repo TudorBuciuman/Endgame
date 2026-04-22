@@ -167,7 +167,7 @@ public class Selection : UIComponent
                     yAxisIsDown = true;
                 }
             }
-            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+            if (UTInput.GetButtonDown("Z"))
             {
                 axisIsDown = false;
                 xAxisIsDown = false;
@@ -200,7 +200,7 @@ public class Selection : UIComponent
                 }
             }
         }
-        if (waitUntilUp && Input.GetKeyUp(KeyCode.Z))
+        if (waitUntilUp && UTInput.GetButtonDown("Z"))
         {
             waitUntilUp = false;
         }

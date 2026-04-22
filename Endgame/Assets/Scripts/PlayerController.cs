@@ -134,16 +134,6 @@ public class PlayerController : MonoBehaviour
     }
     private void Start()
     {
-        /*
-        if (instance == null)
-        {
-            DontDestroyOnLoad(this);
-            instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }*/
         canRun = GameManager.test;
     }
 
@@ -217,7 +207,7 @@ public class PlayerController : MonoBehaviour
     private void HandleRun()
     {
         bool lastmoveTr = false;
-        moveDir = new Vector3(GameManager.GetAxisRaw("Horizontal"), GameManager.GetAxisRaw("Vertical"));
+        moveDir = new Vector3(UTInput.GetAxisRaw("Horizontal"), UTInput.GetAxisRaw("Vertical"));
         if (moveDir != Vector3.zero)
         {
             movePM = true;
@@ -290,9 +280,6 @@ public class PlayerController : MonoBehaviour
 
     public bool ProperlyMoved()
     {
-        // Debug.Log((base.transform.position.x - moveLastPos.x)+" "+ Mathf.Abs(base.transform.position.y - moveLastPos.y));
-        //Debug.Log((base.transform.position.x-lastPos.x)+" "+ Mathf.Abs(base.transform.position.x - moveLastPos.x));
-        //Debug.Log("fuck " + Mathf.Abs(base.transform.position.y - lastPos.y) * 500);
         return true;
         if (!((Mathf.Abs(base.transform.position.x - lastPos.x)*500) > 1f))
         {
@@ -302,9 +289,9 @@ public class PlayerController : MonoBehaviour
     }
     private bool HoldingMoveButtons()
     {
-        if (GameManager.GetAxisRaw("Horizontal") == 0f)
+        if (UTInput.GetAxisRaw("Horizontal") == 0f)
         {
-           return GameManager.GetAxisRaw("Vertical") != 0f;
+           return UTInput.GetAxisRaw("Vertical") != 0f;
         }
         return true;
     }

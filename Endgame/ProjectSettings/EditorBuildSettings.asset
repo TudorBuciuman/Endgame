@@ -69,19 +69,25 @@ EditorBuildSettings:
     path: Assets/Scenes/2.Rising/mystery_room.unity
     guid: 31487ec81c2217045832f4869d901640
   - enabled: 1
-    path: Assets/Scenes/Trailers/LCHM_1_Entrance.unity
+    path: Assets/Scenes/Trailer_only/LCHM_1_Entrance.unity
     guid: 5e981020a6b7d7a458a71e26f593d4ad
   - enabled: 1
-    path: Assets/Scenes/Trailers/LCHM_2_Pit.unity
+    path: Assets/Scenes/Trailer_only/LCHM_2_Pit.unity
     guid: 4fbde79610f4c3a4aa2b7505a1059faf
   - enabled: 1
-    path: Assets/Scenes/Trailers/LCHM_3_End.unity
+    path: Assets/Scenes/Trailer_only/LCHM_3_End.unity
     guid: df580af586a553142aa2774331ac89bd
   - enabled: 1
-    path: Assets/Scenes/Trailers/LCHM_4_Hall.unity
+    path: Assets/Scenes/Trailer_only/LCHM_4_Hall.unity
     guid: 93935d9fca4a4b44ca5432a1eb180df2
   - enabled: 1
-    path: Assets/Scenes/Trailers/LCHM_6.unity
+    path: Assets/Scenes/Trailer_only/LCHM_6.unity
     guid: 7a56b6e8e36b7b649b3a1ee409b5f853
+  - enabled: 1
+    path: Assets/Scenes/Trailer_only/LCHM_7.unity
+    guid: dee8ed8c012fe024280438c8fe264ab6
+  - enabled: 1
+    path: Assets/Scenes/Trailer_only/LCHM_8.unity
+    guid: 923a8a171dd27894abd50481bb90c1f0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

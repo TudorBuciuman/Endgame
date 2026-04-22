@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
     public bool canInteract;
 
     public static bool test = false;
-
+    public static bool mobile = false;
     private readonly int[] lvs = new int[20]
     {
         0, 10, 30, 70, 120, 200, 300, 500, 800, 1200,
@@ -107,15 +107,10 @@ public class GameManager : MonoBehaviour
 
     public void Awake()
     {
-#if UNITY_EDITOR
-        test = true;
-#endif
-        if(!test || GetFlagInt(66) == 1)
+        if(GetFlagInt(66) == 1)
         {
             test = true;
         }
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         Application.targetFrameRate = 60;
         QualitySettings.vSyncCount = 1;
         
@@ -126,6 +121,19 @@ public class GameManager : MonoBehaviour
         menuLocked = false;
         if (instance==null)
         {
+#if UNITY_EDITOR
+    test = true;
+#endif
+#if UNITY_ANDROID
+    mobile=true;
+    Instantiate(Resources.Load<GameObject>("ui/MobileUI"));
+    FindFirstObjectByType<MobileUI>().EnableButtons(dPadEnabled: true, z: true, x: true, c: true, instant: false);
+#endif
+            if (!mobile)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
             instance = this;
             SetDefaultValues();
             GameObject gameObject = new GameObject("FadeCanvas", typeof(Canvas));
@@ -167,7 +175,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C) && !menuIsOpen && !menuDisabled && !menuLocked && canInteract)
+        if (UTInput.GetButtonDown("C") && !menuIsOpen && !menuDisabled && !menuLocked && canInteract)
         {
             menu = new GameObject();
             menuIsOpen = true;
@@ -230,7 +238,6 @@ public class GameManager : MonoBehaviour
             LoadFile();
         }
         checkpointSave = save;
-        Debug.Log(checkpointSave.zone);
         menuLocked = false;
     }
     public int GetZone()
@@ -457,22 +464,6 @@ public class GameManager : MonoBehaviour
         if ((bool)mp)
         {
             mp.Resume();
-        }
-    }
-    public static float GetAxisRaw(string name)
-    {
-        switch (name)
-        {
-            case "Vertical":
-                return (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)) ? 1f :
-                   (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow)) ? -1f : 0f));
-
-            case "Horizontal":
-                return (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow)) ? 1f :
-                   (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow)) ? -1f : 0f));
-
-            default:
-                return 0f;
         }
     }
 

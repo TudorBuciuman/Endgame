@@ -129,7 +129,7 @@ public class DeltaSelection : UIComponent
                 soul.transform.localPosition = new Vector3(x, y);
             }
         }
-        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)) && index != Vector2.zero && validPositions[index])
+        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || UTInput.GetButtonDown("Z")) && index != Vector2.zero && validPositions[index])
         {
             interaction.MakeDecision(index, selectID);
             if ((bool)textboxGameObject)
